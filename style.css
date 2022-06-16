@@ -332,6 +332,16 @@ header .btnProjects:hover{
     height: 45rem;
     background:#282560;
 }
+.projects .blueBar{
+    border-color: none;
+    background-color:#25a8e0;
+    height: 6px;
+    width: 81px;
+}
+
+.projects a{
+    display:none;
+}
 
 .projects h4{
     color: white;    
@@ -939,10 +949,6 @@ p.description{
 }
 
 
-#memberBoxRau.open .description{
-
-
-}
 
 
 
@@ -980,6 +986,12 @@ p.description{
     padding-top: 5.8rem;
     background-color: #d3eef9;
     padding-bottom: 5.8rem;
+}
+.media .blueBar{
+    border-color: none;
+    background-color:#25a8e0;
+    height: 6px;
+    width: 81px;
 }
 
 .media h4{
@@ -1477,6 +1489,9 @@ p.description{
     .contactInfo{
         padding-right:0 !important;
     }    
+    .projects .blueBar{
+        display: none;
+    }
 }
 
 /*RESPOSINVE - PHONE*/

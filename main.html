@@ -93,17 +93,18 @@
 		<div class="blueBar"></div>
 		<p>Contribuim concret la construcția orașelor smart ale viitorului. Cu pasiune, transformăm vise în realitate. Află mai multe despre cele mai interesante proiecte Novarion.
 		</p>
-		<div class="threeProjects">
+		<div class="threeProjects" >
 			<div class="projectsBtns1"> 
 				<div class="aGreyBlock1"></div>
 			</div>
-			<div class="projectsBtns2"> 
+			<div class="projectsBtns2" id="anchor-name"> 
 				<div class="aGreyBlock2"></div>
 			</div>
 			<div class="projectsBtns3"> 
 				<div class="aGreyBlock3"></div>
 			</div>
 		</div>
+		<a href="https://www.thelake.ro/#anchor-name"></a>
 	</section>
 
 	<section class="echipa" id="echipa">
@@ -434,18 +435,18 @@
 		</div>
 	</section>
 	
-	<section class="Form">
+	<form class="Form" onsubmit="sendEmail(); reset(); return false;">
 		<h4>TRIMITE UN MESAJ</h4>
 		<div class="persInfo">
 			<input type="text" placeholder="Nume" required>
-			<input type="email" placeholder="Email" required>
+			<input type="email" placeholder="Email" required id="email">
 		</div>
 		<div class="mesajul">
 		<input type="text" placeholder="Mesajul tău" required>
 		</div>
 		<button>Trimite</button>
 			
-	</section>
+	</form>
 	
 	<section class="footer" id="footer">
 		<div class="wrapperFooter">
@@ -492,5 +493,6 @@
 	</section>
 
 	<script src="app.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>

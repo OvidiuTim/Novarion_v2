@@ -94,13 +94,17 @@ nav img{
 
 /*header*/
 .header{
+    height: 42.125rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    background-position: center bottom;
+    background-image:url(/media/NOVARION_theme\ photo_1.png);   
+    background-size: cover;
 }
-.headerImg{
+
+/*.headerImg{
     height: 42.125rem;
     width: 100%;
     position:static;
@@ -108,9 +112,8 @@ nav img{
     background-image:url(/media/NOVARION_theme\ photo_1.png);   
     background-size: cover;
     opacity: 90%;
-}
+}*/
 .wrapperHeader{
-    position: absolute;
     display: flex;
     flex-direction:column;
     justify-content: start;
@@ -499,13 +502,12 @@ header .btnProjects:hover{
     background-size: 12rem;
 }
 
-/*.echipa .blueBar{
-    margin-left: 48%;
+.echipa .blueBar{
     border-color: none;
     background-color:#25a8e0;
     height: 6px;
     width: 81px;
-}*/
+}
 
 .echipa h4{
     color: #1076bc;    
@@ -610,22 +612,6 @@ header .btnProjects:hover{
     text-align: center;
 }
 
-.memberBox{
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 17.5%;
-    max-height: 24rem;
-
-    overflow: hidden;
-    filter: grayscale(100%);
-
-    /* transition open member box*/
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0,7s;
-    transition: max-height 0,7s;
-}
 p.description{
     display: none;
     padding: 0;
@@ -681,9 +667,8 @@ p.description{
     filter: grayscale(0%)
 }
 
-    /*when clicked alex*/
-#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz  
-#memberBoxAlex{
+/*when clicked alex*/
+#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz  {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -691,265 +676,40 @@ p.description{
     max-height: 24rem;
     overflow: hidden;
     filter: grayscale(100%);
-
     /* transition open member box*/
     -webkit-transition: max-height 0.7s;
     -moz-transition: max-height 0,7s;
     transition: max-height 0,7s;
 }
-#memberBoxAlex.open{
+#memberBoxAlex.open,  #memberBoxLiv.open , #memberBoxFlo.open,  #memberBoxOvi.open , #memberBoxDen.open , #memberBoxRaz.open {
     cursor: pointer;
     filter: grayscale(0%);
     max-height: 70rem;
 }
-#memberBoxAlex.open .description{
+#memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description {
     display: inline;
     background-color: #ffffff;
-    height: 60rem;
+    height: 30rem;
     font-size: 1rem;
     margin-top: 1rem;
 
 }
-#memberBoxAlex.open .nameJob{
+#memberBoxAlex.open .nameJob,  #memberBoxLiv.open .nameJob, #memberBoxFlo.open .nameJob,  #memberBoxOvi.open .nameJob, #memberBoxDen.open .nameJob, #memberBoxRaz.open .nameJob, #memberBoxAnca .open.nameJob{
     display: none;
 }
-#memberBoxAlex img{
+#memberBoxAlex img, #memberBoxLiv img, #memberBoxFlo img, #memberBoxOvi img, #memberBoxDen img, #memberBoxRaz img, #memberBoxAnca img{
     min-height: 16.25rem;
     max-height: 16.25rem;
     width: 100%;
     object-fit: cover;
     object-position: 100% 20%;
 }
-#memberBoxAlex:hover{
+#memberBoxAlex:hover, #memberBoxLiv:hover, #memberBoxFlo:hover , #memberBoxOvi:hover , #memberBoxDen:hover , #memberBoxRaz:hover , #memberBoxAnca:hover {
     cursor: pointer;
     filter: grayscale(0%)
 }
 
-    /*when clicked Livia*/
-
-#memberBoxLiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 17.5%;
-    max-height: 24rem;
-    overflow: hidden;
-    filter: grayscale(100%);
-
-    /* transition open member box*/
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0,7s;
-    transition: max-height 0,7s;
-}
-#memberBoxLiv.open{
-    cursor: pointer;
-    filter: grayscale(0%);
-    max-height: 70rem;
-}
-#memberBoxLiv.open .description{
-    display: inline;
-    background-color: #ffffff;
-    height: 60rem;
-    font-size: 1rem;
-    margin-top: 1rem;
-
-}
-#memberBoxLiv.open .nameJob{
-    display: none;
-}
-#memberBoxLiv img{
-    min-height: 16.25rem;
-    max-height: 16.25rem;
-    width: 100%;
-    object-fit: cover;
-    object-position: 100% 20%;
-}
-#memberBoxLiv:hover{
-    cursor: pointer;
-    filter: grayscale(0%)
-}
-    /*when clicked florin d*/
-
-    #memberBoxFlo{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 17.5%;
-        max-height: 24rem;
-        overflow: hidden;
-        filter: grayscale(100%);
-    
-        /* transition open member box*/
-        -webkit-transition: max-height 0.7s;
-        -moz-transition: max-height 0,7s;
-        transition: max-height 0,7s;
-    }
-    #memberBoxFlo.open{
-        cursor: pointer;
-        filter: grayscale(0%);
-        max-height: 70rem;
-    }
-    #memberBoxFlo.open .description{
-        display: inline;
-        background-color: #ffffff;
-        height: 60rem;
-        font-size: 1rem;
-        margin-top: 1rem;
-    
-    }
-    #memberBoxFlo.open .nameJob{
-        display: none;
-    }
-    #memberBoxFlo img{
-        min-height: 16.25rem;
-        max-height: 16.25rem;
-        width: 100%;
-        object-fit: cover;
-        object-position: 100% 20%;
-    }
-    #memberBoxFlo:hover{
-        cursor: pointer;
-        filter: grayscale(0%)
-    }
- 
-
-   /*when clicked OVI*/
-#memberBoxOvi{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 17.5%;
-    max-height: 24rem;
-    overflow: hidden;
-    filter: grayscale(100%);
-
-    /* transition open member box*/
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0,7s;
-    transition: max-height 0,7s;
-}
-#memberBoxAlex.open,  #memberBoxLiv.open , #memberBoxFlo.open,  #memberBoxOvi.open , #memberBoxDen.open , #memberBoxRaz.open 
-#memberBoxOvi.open{
-    cursor: pointer;
-    filter: grayscale(0%);
-    max-height: 70rem;
-
-}
-#memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description 
-#memberBoxOvi.open .description{
-    display: inline;
-    background-color: #ffffff;
-    height: 60rem;
-    font-size: 1rem;
-    margin-top: 1rem;
-
-}
-#memberBoxAlex.open .nameJob,  #memberBoxLiv.open .nameJob, #memberBoxFlo.open .nameJob,  #memberBoxOvi.open .nameJob, #memberBoxDen.open .nameJob, #memberBoxRaz.open .nameJob, #memberBoxAnca .open.nameJob
-#memberBoxOvi.open .nameJob{
-    display: none;
-}
-#memberBoxOvi img{
-    min-height: 16.25rem;
-    max-height: 16.25rem;
-    width: 100%;
-    object-fit: cover;
-    object-position: 100% 20%;
-}
-#memberBoxOvi:hover{
-    cursor: pointer;
-    filter: grayscale(0%)
-}
-
-
- /*when clicked den*/
- #memberBoxDen{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 17.5%;
-    max-height: 24rem;
-    overflow: hidden;
-    filter: grayscale(100%);
-
-    /* transition open member box*/
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0,7s;
-    transition: max-height 0,7s;
-}
-#memberBoxDen.open{
-    cursor: pointer;
-    filter: grayscale(0%);
-    max-height: 70rem;
-
-}
-#memberBoxDen.open .description{
-    display: inline;
-    background-color: #ffffff;
-    height: 60rem;
-    font-size: 1rem;
-    margin-top: 1rem;
-
-}
-#memberBoxDen.open .nameJob{
-    display: none;
-}
-#memberBoxDen img{
-    min-height: 16.25rem;
-    max-height: 16.25rem;
-    width: 100%;
-    object-fit: cover;
-    object-position: 100% 20%;
-}
-#memberBoxDen:hover{
-    cursor: pointer;
-    filter: grayscale(0%)
-}
-
-
-
- /*when clicked raz*/
- #memberBoxRaz{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 17.5%;
-    max-height: 24rem;
-    overflow: hidden;
-    filter: grayscale(100%);
-
-    /* transition open member box*/
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0,7s;
-    transition: max-height 0,7s;
-}
-#memberBoxRaz.open{
-    cursor: pointer;
-    filter: grayscale(0%);
-    max-height: 70rem;
-
-}
-#memberBoxRaz.open .description{
-    display: inline;
-    background-color: #ffffff;
-    height: 60rem;
-    font-size: 1rem;
-    margin-top: 1rem;
-
-}
-#memberBoxRaz.open .nameJob{
-    display: none;
-}
-#memberBoxRaz img{
-    min-height: 16.25rem;
-    max-height: 16.25rem;
-    width: 100%;
-    object-fit: cover;
-    object-position: 100% 20%;
-}
-#memberBoxRaz:hover{
-    cursor: pointer;
-    filter: grayscale(0%)
-}
+  
  /*when clicked anc*/
  #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
  #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim,#memberBoxDan,#memberBoxRau
@@ -978,7 +738,7 @@ p.description{
     #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description,#memberBoxDan.open .description{
     display: inline;
     background-color: #ffffff;
-    height: 60rem;
+    height: 35rem;
     font-size: 1rem;
     margin-top: 1rem;
 
@@ -1019,11 +779,6 @@ p.description{
     opacity: 0.5;
     pointer-events: none;
 }
-
-
-
-
-
 
 .memberBox:hover{
     cursor: pointer;
@@ -1444,7 +1199,13 @@ p.description{
         width: 50%;
         justify-content: space-around;
     }
-
+    .header h3{
+        font-size: 20pt;
+    }
+    .header h1{
+        font-size: 33pt;
+        line-height: 3rem;
+    }
     .aboutUs{
         background-image:none !important;
         height: 20rem;
@@ -1488,7 +1249,6 @@ p.description{
     }
     .services p{
         width: 80% !important;
-        
     }
 
     .ser{
@@ -1505,7 +1265,7 @@ p.description{
     .projects p{
         width: 80%;
         font-size: 16pt;
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
     .projectsBtns1{
         height: 14rem !important;
@@ -1516,14 +1276,28 @@ p.description{
     .projectsBtns3{
         height: 14rem !important;
     }
+    .echipa{
+        height: 180rem;
+    }
 
     .echipa p{
         width: 60%;
         font-size: 16pt;
     }
-
+    .nameJob h5{
+        font-size: 10pt;
+    }
+    #memberBox .Job, #memberBoxAlex .Job, #memberBoxLiv .Job, #memberBoxFlo .Job, #memberBoxOvi .Job, #memberBoxDen .Job, #memberBoxRaz .Job,#memberBoxAlex .Job,  #memberBoxAnc .Job, #memberBoxGab .Job, #memberBoxMih .Job, #memberBoxRal .Job,#memberBoxLuc .Job,#memberBoxDel .Job,#memberBoxMel .Job,#memberBoxSte .Job,
+#memberBoxCri .Job,#memberBoxCrs .Job,#memberBoxAle .Job,#memberBoxAnd .Job,#memberBoxSim .Job,#memberBoxDan .Job,#memberBoxRau .Job{
+    text-align: center;
+    font-size: 10pt;
+    margin-right: 0;
+}
     .media{
         padding-top: 2rem;
+    }
+    .timeline{
+        padding-bottom: 2rem;
     }
     .introP{
         margin-top: 1rem;
@@ -1542,7 +1316,7 @@ p.description{
     }
 
     .Form{
-        height: 30rem;
+        height: 35rem;
     }
     .persInfo input{
         width: 47%;
@@ -1557,15 +1331,21 @@ p.description{
     .wrapperFooter{
         width: 95%;
     }
+    .footer1{
+        width: 27%;
+    }
+    .footer2{
+        width: 27%;
+    }
     .socialIcons{
-        width: 100%;
+        width: 90%;
+    }
+    .footer3{
+        width: 27%;
     }
     .contactInfo{
         padding-right:0 !important;
     }    
-    .projects .blueBar{
-        display: none;
-    }
 }
 
 /*RESPOSINVE - PHONE*/
@@ -1576,13 +1356,14 @@ p.description{
     .navlinks{
         position: absolute;
         right: 0px;
-        height: 40rem;
-        top: 4vh;
+        height: 30rem;
+        top: 5rem;
         background-color: #282560;
+        opacity: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 45%;
         transform: translate(100%);
         transition: transform 0.5s ease-in;
     }
@@ -1801,8 +1582,6 @@ p.description{
         width: 100%;
         position: none;
         padding-bottom: 2rem;
-    }
-    .Suntem{
     }
     .Contact{
         display: flex;

@@ -29,6 +29,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 0.2rem;
     height: 5rem;
     background-color: #282560;
     font-weight: normal;
@@ -95,12 +96,14 @@ nav img{
 .header{
     height: 42.125rem; 
     width: 100%;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-position: center;
+    background-position: center bottom;
     background-image:url(/media/NOVARION_theme\ photo_1.png);   
+    background-size: cover;
+    opacity: 85%;
+
 }
 .wrapperHeader{
     display: flex;
@@ -113,7 +116,7 @@ nav img{
 .header h3{
     color: #ffffff;
     font-family: 'Bicyclette', sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 20pt;
     letter-spacing: 0.125rem;
 }
@@ -140,6 +143,7 @@ header .btnProjects{
     font-size: 12pt;
     letter-spacing: 0.125rem;
     transition: all 0.25s;
+    opacity: 100%;
 }
 
 header .btnProjects:hover{

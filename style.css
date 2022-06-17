@@ -380,8 +380,9 @@ header .btnProjects:hover{
     background-image: url("media/The\ River\ Hotel_preview.jpg");
     background-size: cover; 
     filter: grayscale(100%);
+    transition: all 0,5s;
 }
-.aGreyBlock1{
+.projectsBtns1 .aGreyBlock1{
     height: 93%;
     width: 93%;
     background-color: #414141;
@@ -390,6 +391,17 @@ header .btnProjects:hover{
     background-size: 25%;
     background-repeat: no-repeat;
     background-position: center;
+    transition: all 1.5s;
+
+}
+
+.projectsBtns1:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+.projectsBtns1 .aGreyBlock1:hover{
+    background-color: #fffffff7;
+    background-image: url("/media/Logos/the\ river\ hotel\ logo.png")
 }
 
 .projectsBtns2{
@@ -412,6 +424,18 @@ header .btnProjects:hover{
     background-size: 25%;
     background-repeat: no-repeat;
     background-position: center;
+    transition: all 1.5s;
+
+}
+
+.projectsBtns2:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+
+}
+.projectsBtns2 .aGreyBlock2:hover{
+    background-color: #fffffff7;
+    background-image: url("/media/Logos/the\ leke\ home\ logo.png")
 }
 
 .projectsBtns3{
@@ -434,6 +458,18 @@ header .btnProjects:hover{
     background-size: 25%;
     background-repeat: no-repeat;
     background-position: center;
+    transition: all 1.5s;
+
+}
+
+.projectsBtns3:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+
+}
+.projectsBtns3 .aGreyBlock3:hover{
+    background-color: #fffffff7;
+    background-image: url("/media/Logos/the\ river\ chalet\ logo.png")
 }
 
 /*ECHIPA*/

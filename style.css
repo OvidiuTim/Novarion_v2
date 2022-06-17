@@ -541,6 +541,7 @@ header .btnProjects:hover{
     display: flex;
     flex-direction: row;
     width: 70%;
+    height: 22rem;
     justify-content: space-between;
 }
 .tworow{

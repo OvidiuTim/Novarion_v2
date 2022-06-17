@@ -77,7 +77,26 @@ nav img{
 
 .navlinks li{
     list-style: none;
+    
+
 }
+.barHover{
+    margin-top: 6px;
+    height: 3px;
+    background-color: #1076bc;
+    
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+
+}
+.barHovera:hover{
+    background-color: #ffffff;
+
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    display: contents;
+}
+
 
 .burger{
     display: none;

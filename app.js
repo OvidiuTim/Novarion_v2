@@ -393,6 +393,10 @@ const navSlide = () => {
 	  }
   }
 
+
+
+  //contact me form
+
   function sendEmail(){
 	Email.send({
 		Host : "smtp.gmail.com",
@@ -406,3 +410,16 @@ const navSlide = () => {
 	  message => alert(message)
 	);
   }
+
+
+  //open in new window for the lake
+
+  function NewTabLake() {
+	window.open(
+	"https://www.thelake.ro/locuintamea/", "_blank");
+}
+
+function NewTabRiver() {
+	window.open(
+	"https://www.theriver.ro/", "_blank");
+}

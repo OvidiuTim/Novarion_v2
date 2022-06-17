@@ -381,6 +381,8 @@ header .btnProjects:hover{
     width: 70%;
 }
 
+
+
 .projectsBtns1{
     display: flex;
     flex-direction: column;
@@ -402,7 +404,7 @@ header .btnProjects:hover{
     background-size: 25%;
     background-repeat: no-repeat;
     background-position: center;
-    transition: all 1.5s;
+    transition: all 0.7s;
 
 }
 
@@ -435,7 +437,7 @@ header .btnProjects:hover{
     background-size: 25%;
     background-repeat: no-repeat;
     background-position: center;
-    transition: all 1.5s;
+    transition: all 1s;
 
 }
 
@@ -469,7 +471,7 @@ header .btnProjects:hover{
     background-size: 25%;
     background-repeat: no-repeat;
     background-position: center;
-    transition: all 1.5s;
+    transition: all 1s;
 
 }
 
@@ -497,13 +499,12 @@ header .btnProjects:hover{
     background-size: 12rem;
 }
 
-/*.echipa .blueBar{
-    margin-left: 48%;
+.echipa .blueBar{
     border-color: none;
     background-color:#25a8e0;
     height: 6px;
     width: 81px;
-}*/
+}
 
 .echipa h4{
     color: #1076bc;    
@@ -600,22 +601,7 @@ header .btnProjects:hover{
     text-align: center;
 }
 
-.memberBox{
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 17.5%;
-    max-height: 24rem;
 
-    overflow: hidden;
-    filter: grayscale(100%);
-
-    /* transition open member box*/
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0,7s;
-    transition: max-height 0,7s;
-}
 p.description{
     display: none;
     padding: 0;
@@ -671,7 +657,7 @@ p.description{
 }
 
     /*when clicked alex*/
-#memberBoxAlex{
+#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz , #memberBoxAnca {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -679,18 +665,17 @@ p.description{
     max-height: 24rem;
     overflow: hidden;
     filter: grayscale(100%);
-
     /* transition open member box*/
     -webkit-transition: max-height 0.7s;
     -moz-transition: max-height 0,7s;
     transition: max-height 0,7s;
 }
-#memberBoxAlex.open{
+#memberBoxAlex.open,  #memberBoxLiv .open , #memberBoxFlo .open,  #memberBoxOvi .open , #memberBoxDen .open , #memberBoxRaz .open , #memberBoxAnca .open {
     cursor: pointer;
     filter: grayscale(0%);
     max-height: 70rem;
 }
-#memberBoxAlex.open .description{
+#memberBoxAlex.open .description ,#memberBoxLiv .open, #memberBoxFlo .open .description, #memberBoxOvi .open .description , #memberBoxDen .open .description , #memberBoxRaz .open .description , #memberBoxAnca .open .description{
     display: inline;
     background-color: #ffffff;
     height: 60rem;
@@ -698,243 +683,22 @@ p.description{
     margin-top: 1rem;
 
 }
-#memberBoxAlex.open .nameJob{
+#memberBoxAlex.open .nameJob,  #memberBoxLiv .open .nameJob, #memberBoxFlo .open .nameJob,  #memberBoxOvi .open .nameJob, #memberBoxDen .open .nameJob, #memberBoxRaz .open .nameJob, #memberBoxAnca .open .nameJob{
     display: none;
 }
-#memberBoxAlex img{
+#memberBoxAlex img, #memberBoxLiv img, #memberBoxFlo img, #memberBoxOvi img, #memberBoxDen img, #memberBoxRaz img, #memberBoxAnca img{
     min-height: 16.25rem;
     max-height: 16.25rem;
     width: 100%;
     object-fit: cover;
     object-position: 100% 20%;
 }
-#memberBoxAlex:hover{
+#memberBoxAlex:hover, #memberBoxLiv:hover, #memberBoxFlo:hover , #memberBoxOvi:hover , #memberBoxDen:hover , #memberBoxRaz:hover , #memberBoxAnca:hover {
     cursor: pointer;
     filter: grayscale(0%)
 }
 
-    /*when clicked Livia*/
-
-#memberBoxLiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 17.5%;
-    max-height: 24rem;
-    overflow: hidden;
-    filter: grayscale(100%);
-
-    /* transition open member box*/
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0,7s;
-    transition: max-height 0,7s;
-}
-#memberBoxLiv.open{
-    cursor: pointer;
-    filter: grayscale(0%);
-    max-height: 70rem;
-}
-#memberBoxLiv.open .description{
-    display: inline;
-    background-color: #ffffff;
-    height: 60rem;
-    font-size: 1rem;
-    margin-top: 1rem;
-
-}
-#memberBoxLiv.open .nameJob{
-    display: none;
-}
-#memberBoxLiv img{
-    min-height: 16.25rem;
-    max-height: 16.25rem;
-    width: 100%;
-    object-fit: cover;
-    object-position: 100% 20%;
-}
-#memberBoxLiv:hover{
-    cursor: pointer;
-    filter: grayscale(0%)
-}
-    /*when clicked florin d*/
-
-    #memberBoxFlo{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 17.5%;
-        max-height: 24rem;
-        overflow: hidden;
-        filter: grayscale(100%);
-    
-        /* transition open member box*/
-        -webkit-transition: max-height 0.7s;
-        -moz-transition: max-height 0,7s;
-        transition: max-height 0,7s;
-    }
-    #memberBoxFlo.open{
-        cursor: pointer;
-        filter: grayscale(0%);
-        max-height: 70rem;
-    }
-    #memberBoxFlo.open .description{
-        display: inline;
-        background-color: #ffffff;
-        height: 60rem;
-        font-size: 1rem;
-        margin-top: 1rem;
-    
-    }
-    #memberBoxFlo.open .nameJob{
-        display: none;
-    }
-    #memberBoxFlo img{
-        min-height: 16.25rem;
-        max-height: 16.25rem;
-        width: 100%;
-        object-fit: cover;
-        object-position: 100% 20%;
-    }
-    #memberBoxFlo:hover{
-        cursor: pointer;
-        filter: grayscale(0%)
-    }
- 
-
-   /*when clicked OVI*/
-#memberBoxOvi{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 17.5%;
-    max-height: 24rem;
-    overflow: hidden;
-    filter: grayscale(100%);
-
-    /* transition open member box*/
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0,7s;
-    transition: max-height 0,7s;
-}
-#memberBoxOvi.open{
-    cursor: pointer;
-    filter: grayscale(0%);
-    max-height: 70rem;
-
-}
-#memberBoxOvi.open .description{
-    display: inline;
-    background-color: #ffffff;
-    height: 60rem;
-    font-size: 1rem;
-    margin-top: 1rem;
-
-}
-#memberBoxOvi.open .nameJob{
-    display: none;
-}
-#memberBoxOvi img{
-    min-height: 16.25rem;
-    max-height: 16.25rem;
-    width: 100%;
-    object-fit: cover;
-    object-position: 100% 20%;
-}
-#memberBoxOvi:hover{
-    cursor: pointer;
-    filter: grayscale(0%)
-}
-
-
- /*when clicked den*/
- #memberBoxDen{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 17.5%;
-    max-height: 24rem;
-    overflow: hidden;
-    filter: grayscale(100%);
-
-    /* transition open member box*/
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0,7s;
-    transition: max-height 0,7s;
-}
-#memberBoxDen.open{
-    cursor: pointer;
-    filter: grayscale(0%);
-    max-height: 70rem;
-
-}
-#memberBoxDen.open .description{
-    display: inline;
-    background-color: #ffffff;
-    height: 60rem;
-    font-size: 1rem;
-    margin-top: 1rem;
-
-}
-#memberBoxDen.open .nameJob{
-    display: none;
-}
-#memberBoxDen img{
-    min-height: 16.25rem;
-    max-height: 16.25rem;
-    width: 100%;
-    object-fit: cover;
-    object-position: 100% 20%;
-}
-#memberBoxDen:hover{
-    cursor: pointer;
-    filter: grayscale(0%)
-}
-
-
-
- /*when clicked raz*/
- #memberBoxRaz{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 17.5%;
-    max-height: 24rem;
-    overflow: hidden;
-    filter: grayscale(100%);
-
-    /* transition open member box*/
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0,7s;
-    transition: max-height 0,7s;
-}
-#memberBoxRaz.open{
-    cursor: pointer;
-    filter: grayscale(0%);
-    max-height: 70rem;
-
-}
-#memberBoxRaz.open .description{
-    display: inline;
-    background-color: #ffffff;
-    height: 60rem;
-    font-size: 1rem;
-    margin-top: 1rem;
-
-}
-#memberBoxRaz.open .nameJob{
-    display: none;
-}
-#memberBoxRaz img{
-    min-height: 16.25rem;
-    max-height: 16.25rem;
-    width: 100%;
-    object-fit: cover;
-    object-position: 100% 20%;
-}
-#memberBoxRaz:hover{
-    cursor: pointer;
-    filter: grayscale(0%)
-}
+  
  /*when clicked anc*/
  #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
  #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim,#memberBoxDan,#memberBoxRau

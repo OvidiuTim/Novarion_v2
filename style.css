@@ -400,7 +400,7 @@ header .btnProjects:hover{
     cursor: pointer;
 }
 .projectsBtns1 .aGreyBlock1:hover{
-    background-color: #fffffff7;
+    background-color: #ffffff;
     background-image: url("/media/Logos/the\ river\ hotel\ logo.png")
 }
 
@@ -434,7 +434,7 @@ header .btnProjects:hover{
 
 }
 .projectsBtns2 .aGreyBlock2:hover{
-    background-color: #fffffff7;
+    background-color: #ffffff;
     background-image: url("/media/Logos/the\ leke\ home\ logo.png")
 }
 
@@ -468,7 +468,7 @@ header .btnProjects:hover{
 
 }
 .projectsBtns3 .aGreyBlock3:hover{
-    background-color: #fffffff7;
+    background-color: #ffffff;
     background-image: url("/media/Logos/the\ river\ chalet\ logo.png")
 }
 

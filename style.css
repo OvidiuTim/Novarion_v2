@@ -625,7 +625,6 @@ p.description{
     max-height: 24rem;
     overflow: hidden;
     filter: grayscale(100%);
-
     /* transition open member box*/
     -webkit-transition: max-height 0.7s;
     -moz-transition: max-height 0,7s;
@@ -656,6 +655,8 @@ p.description{
     width: 100%;
     object-fit: cover;
     object-position: 100% 20%;
+
+    
 }
 
 
@@ -667,7 +668,7 @@ p.description{
 }
 
     /*when clicked alex*/
-#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz , #memberBoxAnca {
+#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz  {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -680,12 +681,12 @@ p.description{
     -moz-transition: max-height 0,7s;
     transition: max-height 0,7s;
 }
-#memberBoxAlex.open,  #memberBoxLiv .open , #memberBoxFlo .open,  #memberBoxOvi .open , #memberBoxDen .open , #memberBoxRaz .open , #memberBoxAnca .open {
+#memberBoxAlex.open,  #memberBoxLiv.open , #memberBoxFlo.open,  #memberBoxOvi.open , #memberBoxDen.open , #memberBoxRaz.open {
     cursor: pointer;
     filter: grayscale(0%);
     max-height: 70rem;
 }
-#memberBoxAlex.open .description ,#memberBoxLiv .open, #memberBoxFlo .open .description, #memberBoxOvi .open .description , #memberBoxDen .open .description , #memberBoxRaz .open .description , #memberBoxAnca .open .description{
+#memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description {
     display: inline;
     background-color: #ffffff;
     height: 60rem;
@@ -693,7 +694,7 @@ p.description{
     margin-top: 1rem;
 
 }
-#memberBoxAlex.open .nameJob,  #memberBoxLiv .open .nameJob, #memberBoxFlo .open .nameJob,  #memberBoxOvi .open .nameJob, #memberBoxDen .open .nameJob, #memberBoxRaz .open .nameJob, #memberBoxAnca .open .nameJob{
+#memberBoxAlex.open .nameJob,  #memberBoxLiv.open .nameJob, #memberBoxFlo.open .nameJob,  #memberBoxOvi.open .nameJob, #memberBoxDen.open .nameJob, #memberBoxRaz.open .nameJob, #memberBoxAnca .open.nameJob{
     display: none;
 }
 #memberBoxAlex img, #memberBoxLiv img, #memberBoxFlo img, #memberBoxOvi img, #memberBoxDen img, #memberBoxRaz img, #memberBoxAnca img{
@@ -770,7 +771,14 @@ p.description{
 }
 
 
+/*opacity*/
 
+#memberBox.opacity, #memberBoxAlex.opacity, #memberBoxLiv.opacity, #memberBoxFlo.opacity , #memberBoxOvi.opacity , #memberBoxDen.opacity , #memberBoxRaz.opacity, #memberBoxAnc.opacity, 
+#memberBoxGab.opacity, #memberBoxMih.opacity,#memberBoxRal.opacity,#memberBoxLuc.opacity,#memberBoxDel.opacity,#memberBoxMel.opacity,#memberBoxSte.opacity,#memberBoxCri.opacity,
+#memberBoxCrs.opacity,#memberBoxAle.opacity,#memberBoxAnd.opacity,#memberBoxSim.opacity,#memberBoxDan.opacity{
+    opacity: 0.5;
+    pointer-events: none;
+}
 
 
 

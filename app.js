@@ -34,10 +34,56 @@ const navSlide = () => {
 	  {
 		  //srink the box
 		  memberBox.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
+
+		  
 
 	  } else {
 		  //expand the box
 		  memberBox.className = "open";
+
+
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -50,10 +96,52 @@ const navSlide = () => {
 	  {
 		  //srink the box
 		  memberBoxAlex.className = "";
+		  memberBox.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxAlex.className = "open";
+		  memberBox.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -67,10 +155,52 @@ const navSlide = () => {
 	  {
 		  //srink the box
 		  memberBoxLiv.className = "";
+		  memberBoxAlex.className = "";
+		  memberBox.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxLiv.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -83,10 +213,52 @@ const navSlide = () => {
 	  {
 		  //srink the box
 		  memberBoxFlo.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBox.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxFlo.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -101,10 +273,52 @@ const navSlide = () => {
 	  {
 		  //srink the box
 		  memberBoxOvi.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBox.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxOvi.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -117,10 +331,52 @@ const navSlide = () => {
 	  {
 		  //srink the box
 		  memberBoxDen.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBox.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxDen.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -133,10 +389,52 @@ const navSlide = () => {
 	  {
 		  //srink the box
 		  memberBoxRaz.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBox.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxRaz.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -149,10 +447,52 @@ const navSlide = () => {
 	  {
 		  //srink the box
 		  memberBoxAnc.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBox.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxAnc.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -165,10 +505,52 @@ const navSlide = () => {
 	  {
 		  //srink the box
 		  memberBoxGab.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBox.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxGab.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -182,10 +564,52 @@ const navSlide = () => {
 	  {
 		  //srink the box
 		  memberBoxMih.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBox.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxMih.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -198,11 +622,53 @@ const navSlide = () => {
 	  if(memberBoxRal.className == "open")
 	  {
 		  //srink the box
+		  memberBox.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
 		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxRal.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -215,11 +681,53 @@ const navSlide = () => {
 	  if(memberBoxLuc.className == "open")
 	  {
 		  //srink the box
+		  memberBox.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
 		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxLuc.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -232,11 +740,54 @@ const navSlide = () => {
 	  if(memberBoxDel.className == "open")
 	  {
 		  //srink the box
+		  memberBox.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
 		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
+		  
 
 	  } else {
 		  //expand the box
 		  memberBoxDel.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -249,11 +800,54 @@ const navSlide = () => {
 	  if(memberBoxMel.className == "open")
 	  {
 		  //srink the box
+		  memberBox.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
 		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxMel.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
+		  
 	  }
   }
 
@@ -266,11 +860,53 @@ const navSlide = () => {
 	  if(memberBoxSte.className == "open")
 	  {
 		  //srink the box
+		  memberBox.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
 		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxSte.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -283,11 +919,54 @@ const navSlide = () => {
 	  if(memberBoxCri.className == "open")
 	  {
 		  //srink the box
+		  memberBox.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
 		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxCri.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
+		  
 	  }
   }
 
@@ -301,11 +980,53 @@ const navSlide = () => {
 	  if(memberBoxCrs.className == "open")
 	  {
 		  //srink the box
+		  memberBox.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
 		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxCrs.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -318,11 +1039,53 @@ const navSlide = () => {
 	  if(memberBoxAle.className == "open")
 	  {
 		  //srink the box
+		  memberBox.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
 		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxAle.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -335,11 +1098,53 @@ const navSlide = () => {
 	  if(memberBoxAnd.className == "open")
 	  {
 		  //srink the box
+		  memberBox.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
 		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxAnd.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -352,11 +1157,53 @@ const navSlide = () => {
 	  if(memberBoxSim.className == "open")
 	  {
 		  //srink the box
+		  memberBox.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
 		  memberBoxSim.className = "";
+		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxSim.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBox.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -369,11 +1216,53 @@ const navSlide = () => {
 	  if(memberBoxDan.className == "open")
 	  {
 		  //srink the box
+		  memberBox.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
 		  memberBoxDan.className = "";
+		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxDan.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBoxRau.className = "opacity";
 	  }
   }
 
@@ -385,11 +1274,54 @@ const navSlide = () => {
 	  if(memberBoxRau.className == "open")
 	  {
 		  //srink the box
+		  memberBox.className = "";
+		  memberBoxAlex.className = "";
+		  memberBoxLiv.className = "";
+		  memberBoxFlo.className = "";
+		  memberBoxOvi.className = "";
+		  memberBoxDen.className = "";
+		  memberBoxRaz.className = "";
+		  memberBoxAnc.className = "";
+		  memberBoxGab.className = "";
+		  memberBoxMih.className = "";
+		  memberBoxRal.className = "";
+		  memberBoxLuc.className = "";
+		  memberBoxDel.className = "";
+		  memberBoxMel.className = "";
+		  memberBoxSte.className = "";
+		  memberBoxCri.className = "";
+		  memberBoxCrs.className = "";
+		  memberBoxAle.className = "";
+		  memberBoxAnd.className = "";
+		  memberBoxSim.className = "";
+		  memberBox.className = "";
 		  memberBoxRau.className = "";
 
 	  } else {
 		  //expand the box
 		  memberBoxRau.className = "open";
+		  memberBoxAlex.className = "opacity";
+		  memberBoxLiv.className = "opacity";
+		  memberBoxFlo.className = "opacity";
+		  memberBoxOvi.className = "opacity";
+		  memberBoxDen.className = "opacity";
+		  memberBoxRaz.className = "opacity";
+		  memberBoxAnc.className = "opacity";
+		  memberBoxGab.className = "opacity";
+		  memberBoxMih.className = "opacity";
+		  memberBoxRal.className = "opacity";
+		  memberBoxLuc.className = "opacity";
+		  memberBoxDel.className = "opacity";
+		  memberBoxMel.className = "opacity";
+		  memberBoxSte.className = "opacity";
+		  memberBoxCri.className = "opacity";
+		  memberBoxCrs.className = "opacity";
+		  memberBoxAle.className = "opacity";
+		  memberBoxAnd.className = "opacity";
+		  memberBoxSim.className = "opacity";
+		  memberBoxDan.className = "opacity";
+		  memberBox.className = "opacity";
+		  
 	  }
   }
 

@@ -383,8 +383,6 @@ header .btnProjects:hover{
     width: 70%;
 }
 
-
-
 .projectsBtns1{
     display: flex;
     flex-direction: column;
@@ -406,7 +404,7 @@ header .btnProjects:hover{
     background-size: 25%;
     background-repeat: no-repeat;
     background-position: center;
-    transition: all 0.7s;
+    transition: all 1.5s;
 
 }
 
@@ -439,7 +437,7 @@ header .btnProjects:hover{
     background-size: 25%;
     background-repeat: no-repeat;
     background-position: center;
-    transition: all 1s;
+    transition: all 1.5s;
 
 }
 
@@ -473,7 +471,7 @@ header .btnProjects:hover{
     background-size: 25%;
     background-repeat: no-repeat;
     background-position: center;
-    transition: all 1s;
+    transition: all 1.5s;
 
 }
 
@@ -495,19 +493,19 @@ header .btnProjects:hover{
     align-items: center;
     height: 170rem;
     padding-top: 5rem;
-    padding-bottom: 5rem;
     background-image: url(/media/Asset\ 4.png);
     background-position: top 0% right;
     background-repeat: no-repeat;
     background-size: 12rem;
 }
 
-.echipa .blueBar{
+/*.echipa .blueBar{
+    margin-left: 48%;
     border-color: none;
     background-color:#25a8e0;
     height: 6px;
     width: 81px;
-}
+}*/
 
 .echipa h4{
     color: #1076bc;    
@@ -531,32 +529,31 @@ header .btnProjects:hover{
 .teamTable{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
-    height: auto;
-    margin-top: 5rem;
 }
 .onerow{
     position: absolute;
     z-index: 10;
+    margin-top: 5rem;
     display: flex;
     flex-direction: row;
     width: 70%;
-    height: 22rem;
     justify-content: space-between;
+
 }
 .tworow{
     position: absolute;
+    margin-top: 30rem;
     z-index:9;
     display: flex;
     flex-direction: row;
     width: 70%;
     justify-content: space-between;
-    margin-top: 25rem;
 }
 .thirdrow{
     position: absolute;
-    margin-top: 50rem;
+    margin-top: 55rem;
     z-index:8;
     display: flex;
     flex-direction: row;
@@ -566,7 +563,7 @@ header .btnProjects:hover{
 }
 .fourthrow{
     position: absolute;
-    margin-top: 75rem;
+    margin-top: 80rem;
     z-index:7;
     display: flex;
     flex-direction: row;
@@ -575,7 +572,7 @@ header .btnProjects:hover{
 }
 .fifthrow{
     position: absolute;
-    margin-top: 100rem;
+    margin-top: 105rem;
     z-index:6;
     display: flex;
     flex-direction: row;
@@ -585,7 +582,8 @@ header .btnProjects:hover{
 
 .sixthrow{
     position: absolute;
-    margin-top: 125rem;
+    margin-top: 130rem;
+    margin-bottom: 5rem;
     z-index:5;
     display: flex;
     flex-direction: row;
@@ -611,7 +609,22 @@ header .btnProjects:hover{
     text-align: center;
 }
 
+.memberBox{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17.5%;
+    max-height: 24rem;
 
+    overflow: hidden;
+    filter: grayscale(100%);
+
+    /* transition open member box*/
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0,7s;
+    transition: max-height 0,7s;
+}
 p.description{
     display: none;
     padding: 0;
@@ -668,7 +681,8 @@ p.description{
 }
 
     /*when clicked alex*/
-#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz  {
+#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz  
+#memberBoxAlex{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -676,17 +690,18 @@ p.description{
     max-height: 24rem;
     overflow: hidden;
     filter: grayscale(100%);
+
     /* transition open member box*/
     -webkit-transition: max-height 0.7s;
     -moz-transition: max-height 0,7s;
     transition: max-height 0,7s;
 }
-#memberBoxAlex.open,  #memberBoxLiv.open , #memberBoxFlo.open,  #memberBoxOvi.open , #memberBoxDen.open , #memberBoxRaz.open {
+#memberBoxAlex.open{
     cursor: pointer;
     filter: grayscale(0%);
     max-height: 70rem;
 }
-#memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description {
+#memberBoxAlex.open .description{
     display: inline;
     background-color: #ffffff;
     height: 60rem;
@@ -694,22 +709,246 @@ p.description{
     margin-top: 1rem;
 
 }
-#memberBoxAlex.open .nameJob,  #memberBoxLiv.open .nameJob, #memberBoxFlo.open .nameJob,  #memberBoxOvi.open .nameJob, #memberBoxDen.open .nameJob, #memberBoxRaz.open .nameJob, #memberBoxAnca .open.nameJob{
+#memberBoxAlex.open .nameJob{
     display: none;
 }
-#memberBoxAlex img, #memberBoxLiv img, #memberBoxFlo img, #memberBoxOvi img, #memberBoxDen img, #memberBoxRaz img, #memberBoxAnca img{
+#memberBoxAlex img{
     min-height: 16.25rem;
     max-height: 16.25rem;
     width: 100%;
     object-fit: cover;
     object-position: 100% 20%;
 }
-#memberBoxAlex:hover, #memberBoxLiv:hover, #memberBoxFlo:hover , #memberBoxOvi:hover , #memberBoxDen:hover , #memberBoxRaz:hover , #memberBoxAnca:hover {
+#memberBoxAlex:hover{
     cursor: pointer;
     filter: grayscale(0%)
 }
 
-  
+    /*when clicked Livia*/
+
+#memberBoxLiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17.5%;
+    max-height: 24rem;
+    overflow: hidden;
+    filter: grayscale(100%);
+
+    /* transition open member box*/
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0,7s;
+    transition: max-height 0,7s;
+}
+#memberBoxLiv.open{
+    cursor: pointer;
+    filter: grayscale(0%);
+    max-height: 70rem;
+}
+#memberBoxLiv.open .description{
+    display: inline;
+    background-color: #ffffff;
+    height: 60rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+
+}
+#memberBoxLiv.open .nameJob{
+    display: none;
+}
+#memberBoxLiv img{
+    min-height: 16.25rem;
+    max-height: 16.25rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 20%;
+}
+#memberBoxLiv:hover{
+    cursor: pointer;
+    filter: grayscale(0%)
+}
+    /*when clicked florin d*/
+
+    #memberBoxFlo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 17.5%;
+        max-height: 24rem;
+        overflow: hidden;
+        filter: grayscale(100%);
+    
+        /* transition open member box*/
+        -webkit-transition: max-height 0.7s;
+        -moz-transition: max-height 0,7s;
+        transition: max-height 0,7s;
+    }
+    #memberBoxFlo.open{
+        cursor: pointer;
+        filter: grayscale(0%);
+        max-height: 70rem;
+    }
+    #memberBoxFlo.open .description{
+        display: inline;
+        background-color: #ffffff;
+        height: 60rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+    
+    }
+    #memberBoxFlo.open .nameJob{
+        display: none;
+    }
+    #memberBoxFlo img{
+        min-height: 16.25rem;
+        max-height: 16.25rem;
+        width: 100%;
+        object-fit: cover;
+        object-position: 100% 20%;
+    }
+    #memberBoxFlo:hover{
+        cursor: pointer;
+        filter: grayscale(0%)
+    }
+ 
+
+   /*when clicked OVI*/
+#memberBoxOvi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17.5%;
+    max-height: 24rem;
+    overflow: hidden;
+    filter: grayscale(100%);
+
+    /* transition open member box*/
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0,7s;
+    transition: max-height 0,7s;
+}
+#memberBoxAlex.open,  #memberBoxLiv.open , #memberBoxFlo.open,  #memberBoxOvi.open , #memberBoxDen.open , #memberBoxRaz.open 
+#memberBoxOvi.open{
+    cursor: pointer;
+    filter: grayscale(0%);
+    max-height: 70rem;
+
+}
+#memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description 
+#memberBoxOvi.open .description{
+    display: inline;
+    background-color: #ffffff;
+    height: 60rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+
+}
+#memberBoxAlex.open .nameJob,  #memberBoxLiv.open .nameJob, #memberBoxFlo.open .nameJob,  #memberBoxOvi.open .nameJob, #memberBoxDen.open .nameJob, #memberBoxRaz.open .nameJob, #memberBoxAnca .open.nameJob
+#memberBoxOvi.open .nameJob{
+    display: none;
+}
+#memberBoxOvi img{
+    min-height: 16.25rem;
+    max-height: 16.25rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 20%;
+}
+#memberBoxOvi:hover{
+    cursor: pointer;
+    filter: grayscale(0%)
+}
+
+
+ /*when clicked den*/
+ #memberBoxDen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17.5%;
+    max-height: 24rem;
+    overflow: hidden;
+    filter: grayscale(100%);
+
+    /* transition open member box*/
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0,7s;
+    transition: max-height 0,7s;
+}
+#memberBoxDen.open{
+    cursor: pointer;
+    filter: grayscale(0%);
+    max-height: 70rem;
+
+}
+#memberBoxDen.open .description{
+    display: inline;
+    background-color: #ffffff;
+    height: 60rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+
+}
+#memberBoxDen.open .nameJob{
+    display: none;
+}
+#memberBoxDen img{
+    min-height: 16.25rem;
+    max-height: 16.25rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 20%;
+}
+#memberBoxDen:hover{
+    cursor: pointer;
+    filter: grayscale(0%)
+}
+
+
+
+ /*when clicked raz*/
+ #memberBoxRaz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17.5%;
+    max-height: 24rem;
+    overflow: hidden;
+    filter: grayscale(100%);
+
+    /* transition open member box*/
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0,7s;
+    transition: max-height 0,7s;
+}
+#memberBoxRaz.open{
+    cursor: pointer;
+    filter: grayscale(0%);
+    max-height: 70rem;
+
+}
+#memberBoxRaz.open .description{
+    display: inline;
+    background-color: #ffffff;
+    height: 60rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+
+}
+#memberBoxRaz.open .nameJob{
+    display: none;
+}
+#memberBoxRaz img{
+    min-height: 16.25rem;
+    max-height: 16.25rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 20%;
+}
+#memberBoxRaz:hover{
+    cursor: pointer;
+    filter: grayscale(0%)
+}
  /*when clicked anc*/
  #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
  #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim,#memberBoxDan,#memberBoxRau

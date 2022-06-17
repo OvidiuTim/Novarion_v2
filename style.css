@@ -293,7 +293,7 @@ header .btnProjects:hover{
     justify-content: space-between;
     align-items: top;
     padding-top: 5rem;
-    width: 70%;
+    width: 80%;
     height: auto;
 }
 
@@ -307,10 +307,12 @@ header .btnProjects:hover{
 }
 
 .theServices p{
+    width: 100%;
     font-weight: lighter;
     font-size: 12pt;
+    padding: 0;
     color:#949494;
-}
+}   
 
 .ser{
     display: flex;
@@ -491,6 +493,7 @@ header .btnProjects:hover{
     align-items: center;
     height: 170rem;
     padding-top: 5rem;
+    padding-bottom: 5rem;
     background-image: url(/media/Asset\ 4.png);
     background-position: top 0% right;
     background-repeat: no-repeat;
@@ -524,28 +527,34 @@ header .btnProjects:hover{
 }
 
 /*team table*/
+.teamTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin-top: 5rem;
+}
 .onerow{
     position: absolute;
     z-index: 10;
-    margin-top: 15rem;
     display: flex;
     flex-direction: row;
     width: 70%;
     justify-content: space-between;
-
 }
 .tworow{
     position: absolute;
-    margin-top: 40rem;
     z-index:9;
     display: flex;
     flex-direction: row;
     width: 70%;
     justify-content: space-between;
+    margin-top: 25rem;
 }
 .thirdrow{
     position: absolute;
-    margin-top: 65rem;
+    margin-top: 50rem;
     z-index:8;
     display: flex;
     flex-direction: row;
@@ -555,7 +564,7 @@ header .btnProjects:hover{
 }
 .fourthrow{
     position: absolute;
-    margin-top: 90rem;
+    margin-top: 75rem;
     z-index:7;
     display: flex;
     flex-direction: row;
@@ -564,7 +573,7 @@ header .btnProjects:hover{
 }
 .fifthrow{
     position: absolute;
-    margin-top: 115rem;
+    margin-top: 100rem;
     z-index:6;
     display: flex;
     flex-direction: row;
@@ -574,7 +583,7 @@ header .btnProjects:hover{
 
 .sixthrow{
     position: absolute;
-    margin-top: 140rem;
+    margin-top: 125rem;
     z-index:5;
     display: flex;
     flex-direction: row;
@@ -1277,30 +1286,28 @@ p.description{
 .footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #282560;
     background-image: url(media/FooterImg-01.png);
-    background-position: left center;
+    background-position: center left;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 20rem;
     width: 100%;
-    padding-bottom: 6.5rem;
+    height:35rem;
 }
 .wrapperFooter{
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 4rem;
 }
 
 .footer1{
     position: relative;
-    margin-left:5%;
-    width: 25%;
+    width: 20%;
     color: white;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 12pt;
 
 }
@@ -1324,7 +1331,7 @@ p.description{
 
 .footer2{
     position: relative;
-    width: 25%;
+    width: 20%;
 }
 .TITLE2{
     height: 3.1rem;
@@ -1334,12 +1341,12 @@ p.description{
     position: absolute;
     bottom:0;
     color: #25a8e0;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 18pt;
 }
 .footer2 p{
     color: white;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 12pt;
     line-height: 1.5rem;
     padding-top: 2rem;
@@ -1350,18 +1357,18 @@ p.description{
     justify-content: space-between;
     position:absolute;
     bottom: 0;
-    width: 60%;
+    width: 90%;
 }
 
 .socialIcons img{
-    height: 2.5rem;
+    height: 2rem;
     position: relative;
     bottom: 0;
 }
 
 .footer3{
     position: relative;
-    width: 25%;
+    width: 20%;
 }
 
 .TITLE{
@@ -1372,13 +1379,13 @@ p.description{
     position: absolute;
     bottom:0;
     color: #25a8e0;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 18pt;
 }
 
 .Suntem{
     color: white;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 12pt;
     line-height: 1.5rem;
     padding-top: 2rem;
@@ -1391,7 +1398,6 @@ p.description{
 .contactInfo{
     display: flex;
     flex-direction: row;  
-    padding-right:2rem;
 }
 .contactInfo img{
     height: 1.3rem;
@@ -1400,7 +1406,7 @@ p.description{
 }
 .contactInfo a{
     color: white;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 12pt;
     line-height: 1.8rem;
     padding-left: 0.8rem;

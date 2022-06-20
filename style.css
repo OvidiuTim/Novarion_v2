@@ -77,25 +77,13 @@ nav img{
 
 .navlinks li{
     list-style: none;
-    
 
 }
-.barHover{
-    margin-top: 6px;
-    height: 3px;
-    background-color: #1076bc;
-    
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
 
-}
-.barHovera:hover{
-    background-color: #ffffff;
 
-    transform: scaleX(1);
-    transform-origin: bottom left;
-    display: contents;
-}
+
+
+
 
 
 .burger{
@@ -603,13 +591,11 @@ header .btnProjects:hover{
 
 
 .sixthrow{
+    width: 70%;
     position: absolute;
     margin-top: 130rem;
-    margin-bottom: 5rem;
-    z-index:5;
     display: flex;
     flex-direction: row;
-    width: 70%;
     justify-content: space-between; 
 }
 
@@ -688,6 +674,8 @@ p.description{
     -webkit-transition: max-height 0.7s;
     -moz-transition: max-height 0,7s;
     transition: max-height 0,7s;
+    margin-left: 0.5rem;
+
 }
 #memberBoxAlex.open,  #memberBoxLiv.open , #memberBoxFlo.open,  #memberBoxOvi.open , #memberBoxDen.open , #memberBoxRaz.open {
     cursor: pointer;
@@ -721,7 +709,9 @@ p.description{
   
  /*when clicked anc*/
  #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
- #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim{
+ #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim
+ {
+     margin-left: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -735,6 +725,10 @@ p.description{
     -webkit-transition: max-height 0.7s;
     -moz-transition: max-height 0,7s;
     transition: max-height 0,7s;
+        /* transition open member box*/
+        -webkit-transition: all 0.7s;
+        -moz-transition: all 0,7s;
+        transition: all 0,7s;
 }
 #memberBoxAnc.open, #memberBoxGab.open, #memberBoxMih.open, #memberBoxRal.open,#memberBoxLuc.open,#memberBoxDel.open,#memberBoxMel.open,#memberBoxSte.open,
 #memberBoxCri.open{
@@ -806,7 +800,6 @@ p.description{
     object-position: 100% 20%;
 
 }
-
 /*opacity*/
 
 #memberBox.opacity, #memberBoxAlex.opacity, #memberBoxLiv.opacity, #memberBoxFlo.opacity , #memberBoxOvi.opacity , #memberBoxDen.opacity , #memberBoxRaz.opacity, #memberBoxAnc.opacity, 
@@ -814,7 +807,10 @@ p.description{
 #memberBoxCrs.opacity,#memberBoxAle.opacity,#memberBoxAnd.opacity,#memberBoxSim.opacity,#memberBoxDan.opacity, #memberBoxRau.opacity{
     opacity: 0.5;
     pointer-events: none;
+    
 }
+
+
 
 .memberBox:hover{
     cursor: pointer;
@@ -1711,6 +1707,16 @@ p.description{
         justify-content: center;
         align-items: start;
     }  
+    
+    .onerow,.tworow,.thirdrow,.fourthrow, .fifthrow , .sixthrow{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .onerow .memberBox, .tworow .memberBox,.thirdrow .memberBox,.fourthrow .memberBox , .fifthrow .memberBox , .sixthrow .memberBox{
+        width: 500px;
+    }
 }
 .nav-active{
     transform: translate(0%);

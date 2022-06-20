@@ -1294,7 +1294,7 @@ const navSlide = () => {
 		  memberBoxAle.className = "";
 		  memberBoxAnd.className = "";
 		  memberBoxSim.className = "";
-		  memberBox.className = "";
+		  memberBoxDan.className = "";
 		  memberBoxRau.className = "";
 
 	  } else {
@@ -1355,3 +1355,11 @@ function NewTabRiver() {
 	window.open(
 	"https://www.theriver.ro/", "_blank");
 }
+
+
+//download pdf
+function NewTabHotel() {
+	window.open(
+	"", "_blank");
+}
+

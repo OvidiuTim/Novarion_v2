@@ -550,7 +550,7 @@ header .btnProjects:hover{
 .teamTable{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-betwee;
     align-items: center;
 }
 .onerow{
@@ -636,25 +636,13 @@ p.description{
     padding: 0;
     margin: 0;
 }
-#memberBox{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 17.5%;
-    max-height: 24rem;
-    overflow: hidden;
-    filter: grayscale(100%);
-    /* transition open member box*/
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0,7s;
-    transition: max-height 0,7s;
-}
+
 
     /*when clicked florin*/
 #memberBox.open{
     cursor: pointer;
     filter: grayscale(0%);
-    max-height: 70rem;
+    max-height: 50rem;
 }
 #memberBox.open .description{
 
@@ -687,11 +675,12 @@ p.description{
 }
 
 /*when clicked alex*/
-#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz  {
+#memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz  {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 17.5%;
+    /*width: 17.5%;*/
+    width: 16.25rem;
     max-height: 24rem;
     overflow: hidden;
     filter: grayscale(100%);
@@ -711,15 +700,16 @@ p.description{
     height: 30rem;
     font-size: 1rem;
     margin-top: 1rem;
-
 }
 #memberBoxAlex.open .nameJob,  #memberBoxLiv.open .nameJob, #memberBoxFlo.open .nameJob,  #memberBoxOvi.open .nameJob, #memberBoxDen.open .nameJob, #memberBoxRaz.open .nameJob, #memberBoxAnca .open.nameJob{
     display: none;
 }
-#memberBoxAlex img, #memberBoxLiv img, #memberBoxFlo img, #memberBoxOvi img, #memberBoxDen img, #memberBoxRaz img, #memberBoxAnca img{
-    min-height: 16.25rem;
+#memberBoxAlex img, #memberBoxLiv img, #memberBoxFlo img, #memberBoxOvi img, #memberBoxDen img, #memberBoxRaz img, #memberBoxAnca img, #memberBox img{
+    height: 16.25rem;
+    width: 16.25rem;
+    /*min-height: 16.25rem;
     max-height: 16.25rem;
-    width: 100%;
+    width: 100%;*/
     object-fit: cover;
     object-position: 100% 20%;
 }
@@ -731,12 +721,13 @@ p.description{
   
  /*when clicked anc*/
  #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
- #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim,#memberBoxDan,#memberBoxRau
+ #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim,#memberBoxDan,#memberBoxRau, #memberBoxInv
  {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 17.5%;
+    /*width: 17.5%;*/
+    width: 16.25rem;
     max-height: 24rem;
     overflow: hidden;
     filter: grayscale(100%);
@@ -747,11 +738,15 @@ p.description{
     transition: max-height 0,7s;
 }
 #memberBoxAnc.open, #memberBoxGab.open, #memberBoxMih.open, #memberBoxRal.open,#memberBoxLuc.open,#memberBoxDel.open,#memberBoxMel.open,#memberBoxSte.open,
-#memberBoxCri.open,#memberBoxCrs.open,#memberBoxAle.open,#memberBoxAnd.open,#memberBoxSim.open,#memberBoxDan.open{
+#memberBoxCri.open,#memberBoxDan.open{
     cursor: pointer;
     filter: grayscale(0%);
-    max-height: 70rem;
-
+    max-height: 50rem;
+}
+#memberBoxCrs.open,#memberBoxAle.open,#memberBoxAnd.open,#memberBoxSim.open{
+    cursor: pointer;
+    filter: grayscale(0%);
+    max-height: 47rem;
 }
 #memberBoxAnc.open .description, #memberBoxGab.open .description, #memberBoxMih.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,#memberBoxMel.open .description,#memberBoxSte.open .description,
     #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description,#memberBoxDan.open .description{
@@ -760,17 +755,19 @@ p.description{
     height: 35rem;
     font-size: 1rem;
     margin-top: 1rem;
-
 }
+
 #memberBoxAnc.open .nameJob ,#memberBoxAnc.open .nameJob , #memberBoxGab.open .nameJob ,  #memberBoxMih.open .nameJob , #memberBoxRal.open .nameJob ,#memberBoxLuc.open .nameJob ,#memberBoxDel.open .nameJob ,#memberBoxMel.open .nameJob ,#memberBoxSte.open .nameJob ,
 #memberBoxCri.open .nameJob ,#memberBoxCrs.open .nameJob ,#memberBoxAle.open .nameJob ,#memberBoxAnd.open .nameJob ,#memberBoxSim.open .nameJob ,#memberBoxDan.open .nameJob ,#memberBoxRau.open .nameJob {
     display: none;
 }
 #memberBoxAnc img,  #memberBoxAnc img, #memberBoxGab img, #memberBoxMih img, #memberBoxRal img,#memberBoxLuc img,#memberBoxDel img,#memberBoxMel img,#memberBoxSte img,
 #memberBoxCri img,#memberBoxCrs img,#memberBoxAle img,#memberBoxAnd img,#memberBoxSim img,#memberBoxDan img,#memberBoxRau img{
-    min-height: 16.25rem;
+    height: 16.25rem;
+    width: 16.25rem;
+     /*min-height: 16.25rem;
     max-height: 16.25rem;
-    width: 100%;
+    width: 100%;*/
     object-fit: cover;
     object-position: 100% 20%;
 }
@@ -783,8 +780,7 @@ p.description{
 #memberBoxRau.open{
     cursor: pointer;
     filter: grayscale(0%);
-    display: flex;
-    flex-direction: row;
+    display: inline;
     width: 50%;
     padding: 2rem;
 }
@@ -819,6 +815,8 @@ p.description{
     line-height: 1.4rem;
     box-shadow: 0 0 1rem rgba(0,0,0,.1);
 }
+
+
 
 /*MEDIA*/
 .media{
@@ -1295,22 +1293,46 @@ p.description{
     .projectsBtns3{
         height: 14rem !important;
     }
+
+
     .echipa{
         height: 180rem;
     }
-
     .echipa p{
         width: 60%;
         font-size: 16pt;
     }
     .nameJob h5{
-        font-size: 10pt;
+        font-size: 9pt;
     }
-    #memberBox .Job, #memberBoxAlex .Job, #memberBoxLiv .Job, #memberBoxFlo .Job, #memberBoxOvi .Job, #memberBoxDen .Job, #memberBoxRaz .Job,#memberBoxAlex .Job,  #memberBoxAnc .Job, #memberBoxGab .Job, #memberBoxMih .Job, #memberBoxRal .Job,#memberBoxLuc .Job,#memberBoxDel .Job,#memberBoxMel .Job,#memberBoxSte .Job,
-#memberBoxCri .Job,#memberBoxCrs .Job,#memberBoxAle .Job,#memberBoxAnd .Job,#memberBoxSim .Job,#memberBoxDan .Job,#memberBoxRau .Job{
-    text-align: center;
-    font-size: 10pt;
-    margin-right: 0;
+
+#memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
+#memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim,#memberBoxDan,#memberBoxRau, #memberBoxInv {
+    width: 10rem;
+    max-height: 24rem;
+}
+#memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description, #memberBoxGab.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,
+#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description {
+    display: inline;
+    background-color: #ffffff;
+    height: 30rem;
+    width: 100%;
+    font-size: 11pt;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+#memberBox.open .description, #memberBoxAnc.open .description, #memberBoxMih.open .description,#memberBoxMel.open .description,#memberBoxSte.open .description,#memberBoxCri.open .description{
+    display: inline;
+    background-color: #ffffff;
+    max-height: 100rem;
+    width: 100%;
+    font-size: 11pt;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+#memberBoxAlex img, #memberBoxDen img, #memberBoxRaz img,#memberBoxLuc img, #memberBoxMel img, #memberBoxAle img,#memberBoxSim img,#memberBoxRau img{
+    object-fit: cover;
+    object-position: 100% 30%;
 }
     .media{
         padding-top: 2rem;
@@ -1484,6 +1506,37 @@ p.description{
         width: 90%;
         margin-bottom: 1.5rem;
     }
+    .echipa{
+        height: 500rem;
+        width: 100%;
+    }
+    .nameJob p{
+        font-size: 10pt;
+        text-align: center;
+    }
+    .onerow,.tworow,.thirdrow,.fourthrow, .fifthrow , .sixthrow{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .onerow .memberBox, .tworow .memberBox,.thirdrow .memberBox,.fourthrow .memberBox , .fifthrow .memberBox , .sixthrow .memberBox{
+        width: 15rem;
+    }
+    .tworow {
+        top: 40rem;
+    }
+    .thirdrow{
+        top:60rem;
+    }
+    .fourthrow{
+        top: 80rem;
+    }
+    .fifthrow{
+        top:100rem;
+    }
+    .sixthrow{
+        top: 120rem;
+    }
+
 
     .media h4{
         font-size: 2rem !important;
@@ -1524,7 +1577,6 @@ p.description{
 
     .footer{
         background-image: none;
-        padding-bottom: 4rem;
         height: 70rem;
     }
     .wrapperFooter{
@@ -1542,7 +1594,7 @@ p.description{
         text-align: left;
         font-size: 1rem;
         padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding-bottom: 3rem;
         line-height: 1.5rem;
     }
     .footer1{
@@ -1578,14 +1630,14 @@ p.description{
     }
     .socialIcons{
         justify-content: space-around;
-        padding-top: 2rem;
+        padding-top: 1rem;
         width: 60%;
     }
     .socialIcons img{
         height: 2rem;
     }
     .footer3{
-        height: 25rem;
+        height: 19rem;
         width: 70%;
         display: flex;
         flex-direction: column;

@@ -591,12 +591,13 @@ header .btnProjects:hover{
 
 
 .sixthrow{
-    width: 70%;
     position: absolute;
     margin-top: 130rem;
+    z-index:5;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    width: 70%;
+    justify-content: space-between;
 }
 
 .nameJob h5{
@@ -665,7 +666,6 @@ p.description{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*width: 17.5%;*/
     width: 16.25rem;
     max-height: 24rem;
     overflow: hidden;
@@ -695,9 +695,6 @@ p.description{
 #memberBoxAlex img, #memberBoxLiv img, #memberBoxFlo img, #memberBoxOvi img, #memberBoxDen img, #memberBoxRaz img, #memberBoxAnca img, #memberBox img{
     height: 16.25rem;
     width: 16.25rem;
-    /*min-height: 16.25rem;
-    max-height: 16.25rem;
-    width: 100%;*/
     object-fit: cover;
     object-position: 100% 20%;
 }
@@ -709,13 +706,11 @@ p.description{
   
  /*when clicked anc*/
  #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
- #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim
- {
-     margin-left: 0.5rem;
+ #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv{
+    margin-left: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*width: 17.5%;*/
     width: 16.25rem;
     max-height: 24rem;
     overflow: hidden;
@@ -731,7 +726,7 @@ p.description{
         transition: all 0,7s;
 }
 #memberBoxAnc.open, #memberBoxGab.open, #memberBoxMih.open, #memberBoxRal.open,#memberBoxLuc.open,#memberBoxDel.open,#memberBoxMel.open,#memberBoxSte.open,
-#memberBoxCri.open{
+#memberBoxCri.open, #memberBoxDan.open, #memberBoxRau.open{
     cursor: pointer;
     filter: grayscale(0%);
     max-height: 50rem;
@@ -749,13 +744,19 @@ p.description{
     font-size: 1rem;
     margin-top: 1rem;
 }
-
+#memberBoxDan.open .description, #memberBoxRau.open .description{
+    display: inline;
+    background-color: #ffffff;
+    height: 25rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
 #memberBoxAnc.open .nameJob ,#memberBoxAnc.open .nameJob , #memberBoxGab.open .nameJob ,  #memberBoxMih.open .nameJob , #memberBoxRal.open .nameJob ,#memberBoxLuc.open .nameJob ,#memberBoxDel.open .nameJob ,#memberBoxMel.open .nameJob ,#memberBoxSte.open .nameJob ,
-#memberBoxCri.open .nameJob ,#memberBoxCrs.open .nameJob ,#memberBoxAle.open .nameJob ,#memberBoxAnd.open .nameJob ,#memberBoxSim.open .nameJob {
+#memberBoxCri.open .nameJob ,#memberBoxCrs.open .nameJob ,#memberBoxAle.open .nameJob ,#memberBoxAnd.open .nameJob ,#memberBoxSim.open .nameJob, #memberBoxDan.open .nameJob, #memberBoxRau.open .nameJob {
     display: none;
 }
 #memberBoxAnc img,  #memberBoxAnc img, #memberBoxGab img, #memberBoxMih img, #memberBoxRal img,#memberBoxLuc img,#memberBoxDel img,#memberBoxMel img,#memberBoxSte img,
-#memberBoxCri img,#memberBoxCrs img,#memberBoxAle img,#memberBoxAnd img,#memberBoxSim img{
+#memberBoxCri img,#memberBoxCrs img,#memberBoxAle img,#memberBoxAnd img,#memberBoxSim img, #memberBoxDan img,#memberBoxRau img {
     height: 16.25rem;
     width: 16.25rem;
      /*min-height: 16.25rem;
@@ -770,36 +771,6 @@ p.description{
     filter: grayscale(0%)
 }
 
-#memberBoxDan,#memberBoxRau{
-
-    height: 70%;
-    filter: grayscale(100%);
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-bet;
-    margin: 1px;
-
-}
-#memberBoxDan .boxDan,#memberBoxRau .boxRaul{
-    width: 33%;
-}
-#memberBoxDan .description,#memberBoxRau .description{
-    width: 66%;
-    
-
-}
-#memberBoxDan .description p,#memberBoxRau .description p{ 
-    font-size: 1rem;
-    margin-top: 1rem;}
-
-.boxDan img, .boxRaul img{
-    height: 16.25rem;
-    width: 16rem;
-    object-fit: cover;
-    object-position: 100% 20%;
-
-}
 /*opacity*/
 
 #memberBox.opacity, #memberBoxAlex.opacity, #memberBoxLiv.opacity, #memberBoxFlo.opacity , #memberBoxOvi.opacity , #memberBoxDen.opacity , #memberBoxRaz.opacity, #memberBoxAnc.opacity, 
@@ -809,8 +780,6 @@ p.description{
     pointer-events: none;
     
 }
-
-
 
 .memberBox:hover{
     cursor: pointer;
@@ -833,7 +802,14 @@ p.description{
     box-shadow: 0 0 1rem rgba(0,0,0,.1);
 }
 
-
+#spaceBtw{
+    width: 100%;
+    height: 1rem;
+    background-color: #ffffff;
+}
+#spaceBtw.height{
+    height: 25rem;
+}
 
 /*MEDIA*/
 .media{
@@ -1315,12 +1291,20 @@ p.description{
     .echipa{
         height: 180rem;
     }
-    .echipa p{
+    .ppl{
         width: 60%;
         font-size: 16pt;
     }
     .nameJob h5{
         font-size: 9pt;
+    }
+    .echipa .nameJob .Job{
+        padding-top: 0.5rem;
+        font: 9pt !important;
+        line-height: 1.2rem;
+    }
+    .onerow , .tworow, .thirdrow, .fourthrow, .fifthrow, .sixthrow{
+        width: 90%;
     }
 
 #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
@@ -1540,9 +1524,6 @@ p.description{
     .onerow,.tworow,.thirdrow,.fourthrow, .fifthrow , .sixthrow{
         display: flex;
         flex-wrap: wrap;
-    }
-    .onerow .memberBox, .tworow .memberBox,.thirdrow .memberBox,.fourthrow .memberBox , .fifthrow .memberBox , .sixthrow .memberBox{
-        width: 15rem;
     }
     .tworow {
         top: 40rem;

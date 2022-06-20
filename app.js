@@ -1238,6 +1238,7 @@ const navSlide = () => {
 		  memberBoxSim.className = "";
 		  memberBoxDan.className = "";
 		  memberBoxRau.className = "";
+		  spaceBtw.className = "";
 
 	  } else {
 		  //expand the box
@@ -1261,8 +1262,9 @@ const navSlide = () => {
 		  memberBoxAle.className = "opacity";
 		  memberBoxAnd.className = "opacity";
 		  memberBoxSim.className = "opacity";
-		  memberBoxDan.className = "opacity";
+		  memberBox.className = "opacity";
 		  memberBoxRau.className = "opacity";
+		  spaceBtw.className = "height";
 	  }
   }
 
@@ -1296,6 +1298,8 @@ const navSlide = () => {
 		  memberBoxSim.className = "";
 		  memberBoxDan.className = "";
 		  memberBoxRau.className = "";
+		  spaceBtw.className = "";
+
 
 	  } else {
 		  //expand the box
@@ -1321,7 +1325,7 @@ const navSlide = () => {
 		  memberBoxSim.className = "opacity";
 		  memberBoxDan.className = "opacity";
 		  memberBox.className = "opacity";
-		  
+		  spaceBtw.className = "height";
 	  }
   }
 

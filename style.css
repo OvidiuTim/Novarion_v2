@@ -24,7 +24,6 @@ html{
     scroll-behavior: smooth;
 }
 
-/*nav bar*/
 nav{
     display: flex;
     justify-content: space-around;
@@ -63,11 +62,12 @@ nav img{
     width: 100%;
     transform: scaleX(0);
     height: 3px;
-    bottom: 0;
+
     left: 0;
     background-color: #1076bc;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
+    bottom: -0.7rem;
 }
 
 .navlinks a:hover:after{
@@ -99,7 +99,7 @@ nav img{
 
 
 
-/*header*/
+
 .header{
     height: 42.125rem;
     width: 100%;
@@ -166,7 +166,7 @@ header .btnProjects:hover{
 }
 
 
-/*About Us*/
+
 .aboutUs{
     display: flex;
     flex-direction: column;
@@ -207,7 +207,6 @@ header .btnProjects:hover{
 }
 
 
-/*Echipa Motivata*/
 .echipaMotivata{
     width: 100%;
     height: 40rem;
@@ -267,7 +266,7 @@ header .btnProjects:hover{
 }
 
 
-/*services*/
+
 .services{
     display: flex;
     flex-direction: column;
@@ -345,7 +344,7 @@ header .btnProjects:hover{
 }
 
 
-/*proiecte*/
+
 .projects{
     display: flex;
     flex-direction: column;
@@ -495,7 +494,7 @@ header .btnProjects:hover{
     background-image: url("/media/Logos/the\ river\ chalet\ logo.png")
 }
 
-/*ECHIPA*/
+
 .echipa{
     position: relative;
     display: flex;
@@ -534,7 +533,7 @@ header .btnProjects:hover{
     margin-top: 3rem;
 }
 
-/*team table*/
+
 .teamTable{
     display: flex;
     flex-direction: column;
@@ -625,7 +624,7 @@ p.description{
 }
 
 
-    /*when clicked florin*/
+
 #memberBox.open{
     cursor: pointer;
     filter: grayscale(0%);
@@ -652,17 +651,14 @@ p.description{
 
     
 }
-
-
-
-
 #memberBox:hover{
     cursor: pointer;
     filter: grayscale(0%)
 }
 
-/*when clicked alex*/
-#memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz  {
+
+#memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
+#memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv  {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -704,27 +700,7 @@ p.description{
 }
 
   
- /*when clicked anc*/
- #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
- #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv{
-    margin-left: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 16.25rem;
-    max-height: 24rem;
-    overflow: hidden;
-    filter: grayscale(100%);
 
-    /* transition open member box*/
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0,7s;
-    transition: max-height 0,7s;
-        /* transition open member box*/
-        -webkit-transition: all 0.7s;
-        -moz-transition: all 0,7s;
-        transition: all 0,7s;
-}
 #memberBoxAnc.open, #memberBoxGab.open, #memberBoxMih.open, #memberBoxRal.open,#memberBoxLuc.open,#memberBoxDel.open,#memberBoxMel.open,#memberBoxSte.open,
 #memberBoxCri.open, #memberBoxDan.open, #memberBoxRau.open{
     cursor: pointer;
@@ -759,9 +735,6 @@ p.description{
 #memberBoxCri img,#memberBoxCrs img,#memberBoxAle img,#memberBoxAnd img,#memberBoxSim img, #memberBoxDan img,#memberBoxRau img {
     height: 16.25rem;
     width: 16.25rem;
-     /*min-height: 16.25rem;
-    max-height: 16.25rem;
-    width: 100%;*/
     object-fit: cover;
     object-position: 100% 20%;
 }
@@ -771,7 +744,6 @@ p.description{
     filter: grayscale(0%)
 }
 
-/*opacity*/
 
 #memberBox.opacity, #memberBoxAlex.opacity, #memberBoxLiv.opacity, #memberBoxFlo.opacity , #memberBoxOvi.opacity , #memberBoxDen.opacity , #memberBoxRaz.opacity, #memberBoxAnc.opacity, 
 #memberBoxGab.opacity, #memberBoxMih.opacity,#memberBoxRal.opacity,#memberBoxLuc.opacity,#memberBoxDel.opacity,#memberBoxMel.opacity,#memberBoxSte.opacity,#memberBoxCri.opacity,
@@ -811,7 +783,6 @@ p.description{
     height: 25rem;
 }
 
-/*MEDIA*/
 .media{
     display: flex;
     flex-direction: column;
@@ -848,7 +819,7 @@ p.description{
     width: 50%;
 }
 
-/*timeline*/
+
 .timeline {
     display: flex;
     flex-direction: row;
@@ -983,7 +954,7 @@ p.description{
 }
 
 
-/*FORM*/
+
 .Form{
     display: flex;
     flex-direction: column;
@@ -1060,7 +1031,7 @@ p.description{
 }
 
 
-/*Footer*/
+
 .footer{
     display: flex;
     flex-direction: row;
@@ -1194,7 +1165,7 @@ p.description{
     display: none;
 }
 
-/*RESPONSIVE*/
+
 @media screen and (max-width:1200px){
     .specialH{
        text-align: center;
@@ -1202,7 +1173,7 @@ p.description{
 
 }
 
-/*RESPOSINVE - TABLET*/
+
 @media screen and (max-width:1100px){
     .navlinks{
         display: flex;
@@ -1390,7 +1361,7 @@ p.description{
     }    
 }
 
-/*RESPOSINVE - PHONE*/
+
 @media screen and (max-width:760px){
     body{
         overflow-x:hidden ;

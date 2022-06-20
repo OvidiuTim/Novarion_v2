@@ -721,8 +721,7 @@ p.description{
   
  /*when clicked anc*/
  #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
- #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim,#memberBoxDan,#memberBoxRau, #memberBoxInv
- {
+ #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -738,7 +737,7 @@ p.description{
     transition: max-height 0,7s;
 }
 #memberBoxAnc.open, #memberBoxGab.open, #memberBoxMih.open, #memberBoxRal.open,#memberBoxLuc.open,#memberBoxDel.open,#memberBoxMel.open,#memberBoxSte.open,
-#memberBoxCri.open,#memberBoxDan.open{
+#memberBoxCri.open{
     cursor: pointer;
     filter: grayscale(0%);
     max-height: 50rem;
@@ -749,7 +748,7 @@ p.description{
     max-height: 47rem;
 }
 #memberBoxAnc.open .description, #memberBoxGab.open .description, #memberBoxMih.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,#memberBoxMel.open .description,#memberBoxSte.open .description,
-    #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description,#memberBoxDan.open .description{
+    #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description{
     display: inline;
     background-color: #ffffff;
     height: 35rem;
@@ -758,11 +757,11 @@ p.description{
 }
 
 #memberBoxAnc.open .nameJob ,#memberBoxAnc.open .nameJob , #memberBoxGab.open .nameJob ,  #memberBoxMih.open .nameJob , #memberBoxRal.open .nameJob ,#memberBoxLuc.open .nameJob ,#memberBoxDel.open .nameJob ,#memberBoxMel.open .nameJob ,#memberBoxSte.open .nameJob ,
-#memberBoxCri.open .nameJob ,#memberBoxCrs.open .nameJob ,#memberBoxAle.open .nameJob ,#memberBoxAnd.open .nameJob ,#memberBoxSim.open .nameJob ,#memberBoxDan.open .nameJob ,#memberBoxRau.open .nameJob {
+#memberBoxCri.open .nameJob ,#memberBoxCrs.open .nameJob ,#memberBoxAle.open .nameJob ,#memberBoxAnd.open .nameJob ,#memberBoxSim.open .nameJob {
     display: none;
 }
 #memberBoxAnc img,  #memberBoxAnc img, #memberBoxGab img, #memberBoxMih img, #memberBoxRal img,#memberBoxLuc img,#memberBoxDel img,#memberBoxMel img,#memberBoxSte img,
-#memberBoxCri img,#memberBoxCrs img,#memberBoxAle img,#memberBoxAnd img,#memberBoxSim img,#memberBoxDan img,#memberBoxRau img{
+#memberBoxCri img,#memberBoxCrs img,#memberBoxAle img,#memberBoxAnd img,#memberBoxSim img{
     height: 16.25rem;
     width: 16.25rem;
      /*min-height: 16.25rem;
@@ -777,20 +776,42 @@ p.description{
     filter: grayscale(0%)
 }
 
-#memberBoxRau.open{
-    cursor: pointer;
-    filter: grayscale(0%);
-    display: inline;
-    width: 50%;
-    padding: 2rem;
-}
+#memberBoxDan,#memberBoxRau{
 
+    height: 70%;
+    filter: grayscale(100%);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-bet;
+    margin: 1px;
+
+}
+#memberBoxDan .boxDan,#memberBoxRau .boxRaul{
+    width: 33%;
+}
+#memberBoxDan .description,#memberBoxRau .description{
+    width: 66%;
+    
+
+}
+#memberBoxDan .description p,#memberBoxRau .description p{ 
+    font-size: 1rem;
+    margin-top: 1rem;}
+
+.boxDan img, .boxRaul img{
+    height: 16.25rem;
+    width: 16rem;
+    object-fit: cover;
+    object-position: 100% 20%;
+
+}
 
 /*opacity*/
 
 #memberBox.opacity, #memberBoxAlex.opacity, #memberBoxLiv.opacity, #memberBoxFlo.opacity , #memberBoxOvi.opacity , #memberBoxDen.opacity , #memberBoxRaz.opacity, #memberBoxAnc.opacity, 
 #memberBoxGab.opacity, #memberBoxMih.opacity,#memberBoxRal.opacity,#memberBoxLuc.opacity,#memberBoxDel.opacity,#memberBoxMel.opacity,#memberBoxSte.opacity,#memberBoxCri.opacity,
-#memberBoxCrs.opacity,#memberBoxAle.opacity,#memberBoxAnd.opacity,#memberBoxSim.opacity,#memberBoxDan.opacity{
+#memberBoxCrs.opacity,#memberBoxAle.opacity,#memberBoxAnd.opacity,#memberBoxSim.opacity,#memberBoxDan.opacity, #memberBoxRau.opacity{
     opacity: 0.5;
     pointer-events: none;
 }
@@ -1307,7 +1328,7 @@ p.description{
     }
 
 #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
-#memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim,#memberBoxDan,#memberBoxRau, #memberBoxInv {
+#memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim{
     width: 10rem;
     max-height: 24rem;
 }
@@ -1330,7 +1351,7 @@ p.description{
     margin-top: 1rem;
     line-height: 1.5rem;
 }
-#memberBoxAlex img, #memberBoxDen img, #memberBoxRaz img,#memberBoxLuc img, #memberBoxMel img, #memberBoxAle img,#memberBoxSim img,#memberBoxRau img{
+#memberBoxAlex img, #memberBoxDen img, #memberBoxRaz img,#memberBoxLuc img, #memberBoxMel img, #memberBoxAle img{
     object-fit: cover;
     object-position: 100% 30%;
 }
@@ -1449,7 +1470,9 @@ p.description{
     .secondImg{
         display: none;
     }
-
+    .echipaMotivata{
+        height: 35rem;
+    }
     .services{
         width: 98%;
         display: flex;
@@ -1486,6 +1509,7 @@ p.description{
     .projects p{
         margin: 0 !important;
         font-size: 1.2rem;
+        padding-top:2rem;
         padding-bottom: 2rem;
     }
     .threeProjects{
@@ -1509,6 +1533,9 @@ p.description{
     .echipa{
         height: 500rem;
         width: 100%;
+    }
+    .echipa p{
+        width: 80%;
     }
     .nameJob p{
         font-size: 10pt;
@@ -1548,6 +1575,7 @@ p.description{
     }
     .timeline{
         width: 95%;
+        padding-bottom: 8rem;
     }
     .timeline h3{
         font-size: 1rem;
@@ -1577,12 +1605,12 @@ p.description{
 
     .footer{
         background-image: none;
-        height: 70rem;
+        height: 75rem;
     }
     .wrapperFooter{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         width: 100%;
     }
@@ -1652,7 +1680,6 @@ p.description{
         align-items: start;
         width: 100%;
         position: none;
-        padding-bottom: 2rem;
     }
     .Contact{
         display: flex;
@@ -1668,6 +1695,9 @@ p.description{
         margin: 0 !important;
 
     } 
+    .Suntem{
+        margin-bottom: 2rem;
+    }
     .hiddenLink{
         display: contents;
         text-decoration: none;

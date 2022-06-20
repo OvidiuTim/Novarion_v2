@@ -1334,7 +1334,7 @@ const navSlide = () => {
 		Host : "smtp.gmail.com",
 		Username : "pirvu177@gmail.com",
 		Password : "459BDB407A3CC1C1D2CF1161953D14A13CEF",
-		To : 'ovidiu.pirvu@novarion.ro',
+		To : 'boer.livia@gmail.com',
 		From : document.getElementById("email").value,
 		Subject : "Contact nou de la Novarion.ro",
 		Body : "And this is the body"

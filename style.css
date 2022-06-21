@@ -650,17 +650,30 @@ p.description{
     max-height: 70rem;
 }
 
+#memberBox.open img, #memberBoxAlex.open img ,  #memberBoxLiv.open img, #memberBoxFlo.open img,  #memberBoxOvi.open img, #memberBoxDen.open img, #memberBoxRaz.open img, #memberBoxAnc.open img, #memberBoxGab.open img, #memberBoxMih.open img, #memberBoxRal.open img ,#memberBoxLuc.open img ,#memberBoxDel.open img,#memberBoxMel.open img,#memberBoxSte.open img,
+#memberBoxCri.open img, #memberBoxDan.open img, #memberBoxRau.open img{
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
+
 #memberBox.open .description, #memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description, #memberBoxAnc.open .description, #memberBoxGab.open .description, #memberBoxMih.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,#memberBoxMel.open .description,
 #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description {
     display: inline;
-    background-color: #ffffff;
-    height: 30rem;
+    background-color: #ffffff9e;
     font-size: 1rem;
-    margin-top: 1rem;
+    position: absolute;
+    z-index: 1;
+
 }
 #memberBox.open .nameJob, #memberBoxAlex.open .nameJob,  #memberBoxLiv.open .nameJob, #memberBoxFlo.open .nameJob,  #memberBoxOvi.open .nameJob, #memberBoxDen.open .nameJob, #memberBoxRaz.open .nameJob, #memberBoxAnca .open.nameJob,#memberBoxAnc.open .nameJob ,#memberBoxAnc.open .nameJob , #memberBoxGab.open .nameJob ,  #memberBoxMih.open .nameJob , #memberBoxRal.open .nameJob ,#memberBoxLuc.open .nameJob ,#memberBoxDel.open .nameJob ,#memberBoxMel.open .nameJob ,#memberBoxSte.open .nameJob ,
 #memberBoxCri.open .nameJob ,#memberBoxCrs.open .nameJob ,#memberBoxAle.open .nameJob ,#memberBoxAnd.open .nameJob ,#memberBoxSim.open .nameJob, #memberBoxDan.open .nameJob, #memberBoxRau.open .nameJob {
-    display: none;
+    position: absolute;
+    top: 16.25rem;
+    z-index: 2;
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+
 }
 #memberBox img, #memberBoxAlex img, #memberBoxLiv img, #memberBoxFlo img, #memberBoxOvi img, #memberBoxDen img, #memberBoxRaz img, #memberBoxAnca img, #memberBox img,#memberBoxAnc img,  #memberBoxAnc img, #memberBoxGab img, #memberBoxMih img, #memberBoxRal img,#memberBoxLuc img,#memberBoxDel img,#memberBoxMel img,#memberBoxSte img,
 #memberBoxCri img,#memberBoxCrs img,#memberBoxAle img,#memberBoxAnd img,#memberBoxSim img, #memberBoxDan img,#memberBoxRau img {
@@ -668,6 +681,8 @@ p.description{
     width: 16.25rem;
     object-fit: cover;
     object-position: 100% 20%;
+
+
 }
 #memberBox:hover, #memberBoxAlex:hover, #memberBoxLiv:hover, #memberBoxFlo:hover , #memberBoxOvi:hover , #memberBoxDen:hover , #memberBoxRaz:hover , #memberBoxAnca:hover, #memberBoxAnc:hover, #memberBoxAnc:hover, #memberBoxGab:hover, #memberBoxMih:hover, #memberBoxRal:hover,#memberBoxLuc:hover,#memberBoxDel:hover,#memberBoxMel:hover,#memberBoxSte:hover,
 #memberBoxCri:hover,#memberBoxCrs:hover,#memberBoxAle:hover,#memberBoxAnd:hover,#memberBoxSim:hover,#memberBoxDan:hover,#memberBoxRau:hover {
@@ -682,6 +697,7 @@ p.description{
     height: 40rem;
     font-size: 1rem;
     margin-top: 1rem;
+
 }
 /*fifth row*/  
 #memberBoxCrs.open,#memberBoxAle.open,#memberBoxAnd.open,#memberBoxSim.open{
@@ -1644,44 +1660,3 @@ p.description{
     transform: rotate(45deg) translate(-15px, -5px);
 }
 
-/*TEAM TABLE 3 BOXES*/
-.teamTableThreeBoxes{
-    display: none;
-}
-@media screen and (max-width:1550px){
-    .echipa{
-        height: 250rem;
-    }
-    .teamTable{
-        display: none;
-    }
-    .teamTableThreeBoxes{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-betwee;
-        align-items: center;
-    }
-    .seventhrow{
-        position: absolute;
-        margin-top: 155rem;
-        z-index:5;
-        display: flex;
-        flex-direction: row;
-        width: 70%;
-        justify-content: space-between;
-    }
-    .eightrow{
-        position: absolute;
-        margin-top: 180rem;
-        z-index:5;
-        display: flex;
-        flex-direction: row;
-        width: 70%;
-        justify-content: space-between;
-    }
-}
-
-/*TEAM TABLE 2 BOXES*/
-.teamTableTwoBoxes{
-    display: none;
-}

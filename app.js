@@ -25,6 +25,8 @@ const navSlide = () => {
   navSlide();
 
 
+  
+
   var content = document.getElementById("memberBox")
   var button = document.getElementById("showmore")
 

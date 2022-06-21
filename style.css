@@ -35,13 +35,12 @@ nav{
 }
 
 nav img{
-    margin-left: 20% ;
     width: 50%;
 }
 
 .navlinks{
     display: flex;
-    width: 35%;
+    width: 25%;
     justify-content: space-around;
 }
 
@@ -51,7 +50,7 @@ nav img{
     color: #ffffff;
     text-decoration: none;
     letter-spacing: 0.125rem;
-    font-size: 10pt;
+    font-size: 9pt;
     transition: 0.5s;
 
 }
@@ -61,7 +60,7 @@ nav img{
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 3px;
+    height: 4.5px;
 
     left: 0;
     background-color: #1076bc;
@@ -106,6 +105,7 @@ nav img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-position: center bottom;
     background-image:url(/media/NOVARION_theme\ photo_1.png);   
     background-size: cover;
@@ -125,13 +125,12 @@ nav img{
     flex-direction:column;
     justify-content: start;
     align-items: left;
-    width: 80%;
-    margin-left: 15%;
+    width: 70%;
 }
 .header h3{
     color: #ffffff;
     font-family: 'Bicyclette', sans-serif;
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 20pt;
     letter-spacing: 0.125rem;
 }
@@ -142,8 +141,11 @@ header h1{
     font-size: 50pt;
     letter-spacing: 0.125rem;
     padding-top: 2rem;
+}
+.marg1{
+    padding-top: 1.5rem;
     margin-bottom: 2.5rem;
-    line-height: 55pt;
+    margin-left: 0.5rem;
 }
 
 header .btnProjects{
@@ -159,6 +161,7 @@ header .btnProjects{
     letter-spacing: 0.125rem;
     transition: all 0.25s;
 }
+
 
 header .btnProjects:hover{
     cursor: pointer;
@@ -185,11 +188,11 @@ header .btnProjects:hover{
     letter-spacing:0.125rem ;
     font-weight: lighter;
     text-align: center;
-    padding: 0.5em;
+    padding: 0.3em;
 }
 
 .aboutUs .blueBar{
-
+margin-top:2rem ;
     border-color: none;
     background-color:#25a8e0;
     height: 6px;
@@ -199,17 +202,18 @@ header .btnProjects:hover{
 .aboutUs p{
     color: #212121;
     font-weight: lighter;
-    padding-top: 3em;
-    font-size: 18pt;
+    padding-top: 2em;
+    font-size: 16pt;
     text-align: center;
     line-height: 25pt;
-    width: 60%;
+    letter-spacing:0.05rem;
+    width: 50%;
 }
 
 
 .echipaMotivata{
     width: 100%;
-    height: 40rem;
+    height: 30rem;
     background-color: #d3eef9;
     display: flex;
     flex-direction:row;
@@ -234,10 +238,12 @@ header .btnProjects:hover{
 
 .echipaMotivata p{
     font-weight: lighter;
-    font-size: 16pt;
+    font-size: 14pt;
     line-height: 22pt;
     color: black;
     margin-bottom: 2.688rem;
+    letter-spacing:0.04rem;
+
 }
 
 .echipaMotivata button{
@@ -248,6 +254,7 @@ header .btnProjects:hover{
     padding: 1rem 2rem 0.7rem;
     background: none;
     border: solid #1076bc 0.125rem;
+    letter-spacing: 0.1rem;
     border-radius: 0.20rem;
     transition: all 0.25s;
 }
@@ -268,11 +275,12 @@ header .btnProjects:hover{
 
 
 .services{
+    margin-top:6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 40rem;
+    justify-content: start;
+    height: 30rem;
     background-image: url(/media/Asset\ 3.png);
     background-position: bottom 0% left;
     background-repeat: no-repeat;
@@ -288,12 +296,15 @@ header .btnProjects:hover{
 }
 
 .services p{
-    font-weight: lighter;
-    font-size: 16pt;
-    line-height: 22pt;
-    color: black;
+
     text-align: center;
-    width: 55%;
+    width: 40%;
+
+    font-weight: lighter;
+    font-size: 14pt;
+    line-height: 22pt;
+    color: #212121;
+    letter-spacing:0.04rem;
 }
 
 .theServices{
@@ -302,16 +313,16 @@ header .btnProjects:hover{
     justify-content: space-between;
     align-items: top;
     padding-top: 5rem;
-    width: 80%;
+    width: 60%;
     height: auto;
 }
 
 .theServices h3{
     font-weight: normal;
-    font-size: 12pt;
+    font-size: 14pt;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
-    color:#363636;
+    color:#212121;
     padding-bottom: 1.3rem;
 }
 
@@ -321,13 +332,14 @@ header .btnProjects:hover{
     font-size: 12pt;
     padding: 0;
     color:#949494;
+    line-height: 1.6rem;
 }   
 
 .ser{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 25%;
 }
 
 .serImg{
@@ -350,10 +362,11 @@ header .btnProjects:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    height: 45rem;
+    height: 47rem;
     background:#282560;
 }
 .projects .blueBar{
+    margin-top:2rem ;
     border-color: none;
     background-color:#25a8e0;
     height: 6px;
@@ -370,18 +383,22 @@ header .btnProjects:hover{
     letter-spacing:0.125rem ;
     font-weight: lighter;
     text-align: center;
-    padding: 0.5em;
+    margin-bottom: 0.5rem;
+    margin-top:3rem ;
 }
 
 .projects p{
-    color: white;
-    font-weight: lighter;
-    font-size: 18pt;
-    text-align: center;
-    line-height: 25pt;
     margin-top: 3rem;
     margin-bottom: 5rem;
     width: 58%;
+
+    color: white;
+    font-weight: lighter;
+    font-size: 16pt;
+    text-align: center;
+    line-height: 25pt;
+    letter-spacing:0.05rem;
+    width: 50%;
 }
 
 .threeProjects{
@@ -389,7 +406,8 @@ header .btnProjects:hover{
     flex-direction: row ;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 45%;
+    margin-bottom: 3rem;
 }
 
 .projectsBtns1{
@@ -414,7 +432,7 @@ header .btnProjects:hover{
     background-size: 25%;
     background-repeat: no-repeat;
     background-position: center;
-    transition: all 1.5s;
+    transition: all 0.7s;
 
 }
 
@@ -448,7 +466,7 @@ header .btnProjects:hover{
     background-size: 25%;
     background-repeat: no-repeat;
     background-position: center;
-    transition: all 1.5s;
+    transition: all 0.7s;
 
 }
 
@@ -483,7 +501,7 @@ header .btnProjects:hover{
     background-size: 25%;
     background-repeat: no-repeat;
     background-position: center;
-    transition: all 1.5s;
+    transition: all 0.7s;
 
 }
 
@@ -503,7 +521,7 @@ header .btnProjects:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 170rem;
+    height: 167rem;
     padding-top: 5rem;
     background-image: url(/media/Asset\ 4.png);
     background-position: top 0% right;
@@ -512,6 +530,7 @@ header .btnProjects:hover{
 }
 
 .echipa .blueBar{
+    margin-top:2rem ;
     border-color: none;
     background-color:#25a8e0;
     height: 6px;
@@ -519,21 +538,23 @@ header .btnProjects:hover{
 }
 
 .echipa h4{
+    margin-bottom: 0.5rem;
     color: #1076bc;    
     font-size: 32pt;
     letter-spacing:0.125rem ;
     font-weight: lighter;
     text-align: center;
-    padding: 0.5em;
 }
 
-.echipa p{
-    font-weight: lighter;
-    font-size: 18pt;
-    line-height: 22pt;
-    color: #212121;
-    text-align: center;
+.ppl{
     margin-top: 3rem;
+    color: #212121;
+    font-weight: lighter;
+    font-size: 16pt;
+    text-align: center;
+    line-height: 25pt;
+    letter-spacing:0.05rem;
+    width: 50%;
 }
 
 
@@ -546,10 +567,10 @@ header .btnProjects:hover{
 .onerow{
     position: absolute;
     z-index: 10;
-    margin-top: 5rem;
+    margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 60%;
     justify-content: space-between;
 }
 
@@ -562,7 +583,7 @@ header .btnProjects:hover{
     color: #363636;
 }
 .nameJob p{
-    margin-top: 0rem;
+    margin-top: 0.5rem;
     font-weight: normal;
     font-size: 10pt;
     text-transform: uppercase;
@@ -590,7 +611,7 @@ p.description{
     align-items: center;
     width: 16.25rem;
     max-height: 24rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
     overflow: hidden;
     filter: grayscale(100%);
     /* transition open member box*/
@@ -622,9 +643,13 @@ p.description{
     z-index: 1;
     background-color: #ffffff;
     opacity: 90%;
-    font-size: 13pt;
     line-height: 1.2rem;
-    padding: 0 1rem 0 1rem; 
+    padding: 0 1.7rem 0 1.7rem; 
+
+    font-weight: lighter;
+    font-size: 11.5pt;
+    color:#212121;
+    line-height: 1.35rem;
 }
 
 #memberBox.open .nameJob, #memberBoxAlex.open .nameJob,  #memberBoxLiv.open .nameJob, #memberBoxFlo.open .nameJob,  #memberBoxOvi.open .nameJob, #memberBoxDen.open .nameJob, #memberBoxRaz.open .nameJob, #memberBoxAnca .open.nameJob,#memberBoxAnc.open .nameJob ,#memberBoxAnc.open .nameJob , #memberBoxGab.open .nameJob ,  #memberBoxMih.open .nameJob , #memberBoxRal.open .nameJob ,#memberBoxLuc.open .nameJob ,#memberBoxDel.open .nameJob ,#memberBoxMel.open .nameJob ,#memberBoxSte.open .nameJob ,
@@ -694,6 +719,7 @@ p.description{
     padding-bottom: 5.8rem;
 }
 .media .blueBar{
+    margin-top:2rem ;
     border-color: none;
     background-color:#25a8e0;
     height: 6px;
@@ -706,18 +732,19 @@ p.description{
     letter-spacing:0.125rem ;
     font-weight: lighter;
     text-align: center;
-    padding: 0.5em;
+    margin-bottom: 0.5rem;
 }
 
 .introP{
-    font-weight: lighter;
-    font-size: 18pt;
-    line-height: 22pt;
-    color: 212121;
-    text-align: center;
-    margin-bottom: 6.25rem;
     margin-top: 3rem;
-    width: 50%;
+    color: #212121;
+    font-weight: lighter;
+    font-size: 16pt;
+    text-align: center;
+    line-height: 25pt;
+    letter-spacing:0.05rem;
+    width: 45%;
+    margin-bottom: 6.25rem;
 }
 
 
@@ -790,27 +817,33 @@ p.description{
 }
 
 .leftBar h3{
+    color: #1076bc;
+
     font-weight: lighter;
     font-size: 14pt;
-    color: #1076bc;
-    padding-bottom: 1rem;
     text-align: right;
+    line-height: 22pt;
+    letter-spacing:0.04rem;
 }
 
 .leftBar h2{
-    font-weight: normal;
     font-size: 16pt;
     color: #212121;
     text-align: right;
+    font-weight: normal;
+    font-size: 18pt;
+    letter-spacing: 0.05rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .leftBar p{
     font-weight: lighter;
     font-size: 14pt;
-    line-height: 1.8rem;
     color: #212121;
     text-align: right;
-    padding-top: 1.3rem;
+    line-height: 22pt;
+    letter-spacing:0.04rem;
 }
 
 .rightBar{
@@ -944,7 +977,7 @@ p.description{
     background-repeat: no-repeat;
     background-size: 20rem;
     width: 100%;
-    height:35rem;
+    height:30rem;
 }
 .wrapperFooter{
     width: 70%;
@@ -954,6 +987,7 @@ p.description{
 }
 
 .footer1{
+    height: 20.5rem;
     position: relative;
     width: 20%;
     color: white;
@@ -968,18 +1002,26 @@ p.description{
     align-content: bottom;
 }
 .footer1 p{
+    color: white;
+    font-weight: lighter;
+    font-size: 12pt;
+    line-height: 1.6rem;
+    letter-spacing: 0.04rem;
     padding-top: 2rem;
-    padding-bottom: 5rem;
-    line-height: 1.5rem;
 }
 .footer1 a{
+    position: absolute;
+    bottom:0;
     font-size: 16pt;
     font-weight: bolder;
     color: #259cd4;
     text-decoration: none;
+    letter-spacing:0.06rem;
+
 }
 
 .footer2{
+    height: 20.5rem;
     position: relative;
     width: 20%;
 }
@@ -991,15 +1033,17 @@ p.description{
     position: absolute;
     bottom:0;
     color: #25a8e0;
-    font-weight: normal;
-    font-size: 18pt;
+    font-weight: lighter;
+    font-size: 16pt;
+    letter-spacing:0.05rem;
 }
 .footer2 p{
     color: white;
-    font-weight: normal;
-    font-size: 12pt;
-    line-height: 1.5rem;
     padding-top: 2rem;
+    font-weight: lighter;
+    font-size: 12pt;
+    line-height: 1.6rem;
+    letter-spacing: 0.04rem;
 }
 .socialIcons{
     display: flex;
@@ -1007,7 +1051,7 @@ p.description{
     justify-content: space-between;
     position:absolute;
     bottom: 0;
-    width: 90%;
+    width: 70%;
 }
 
 .socialIcons img{
@@ -1017,6 +1061,7 @@ p.description{
 }
 
 .footer3{
+    height: 21rem;
     position: relative;
     width: 20%;
 }
@@ -1029,15 +1074,17 @@ p.description{
     position: absolute;
     bottom:0;
     color: #25a8e0;
-    font-weight: normal;
-    font-size: 18pt;
+    font-weight: lighter;
+    font-size: 16pt;
+    letter-spacing:0.05rem;
 }
 
 .Suntem{
     color: white;
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 12pt;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.04rem;
     padding-top: 2rem;
 }
 .Contact{
@@ -1048,17 +1095,21 @@ p.description{
 .contactInfo{
     display: flex;
     flex-direction: row;  
+    justify-content: left;
 }
 .contactInfo img{
+    margin-top: 0.2rem;
     height: 1.3rem;
     width: 1.2rem;
     
 }
 .contactInfo a{
+
     color: white;
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 12pt;
-    line-height: 1.8rem;
+    line-height: 2rem;
+    letter-spacing: 0.04rem;
     padding-left: 0.8rem;
     text-decoration: none;
 }
@@ -1073,15 +1124,17 @@ p.description{
     }
 }
 
-@media screen and (max-width:1600px){
+@media screen and (max-width:1750px){
     .echipa{
         height: 210rem;
     }
+
+
     #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
     #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv  {
     display: flex;
     flex-direction: column;
-    flex: 1 0 30%;
+    flex: 1 0 33%;
     }
     #memberBoxDan.open .description, #memberBoxRau.open .description,#memberBoxSte.open .description,#memberBox.open .description, #memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description, #memberBoxAnc.open .description, #memberBoxGab.open .description, #memberBoxMih.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,#memberBoxMel.open .description,
     #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description {
@@ -1092,6 +1145,7 @@ p.description{
     .echipa{
         height: 280rem;
     }
+
     #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
     #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv  {
     display: flex;
@@ -1420,9 +1474,10 @@ p.description{
     }
     #memberBoxDan.open .description, #memberBoxRau.open .description,#memberBoxSte.open .description,#memberBox.open .description, #memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description, #memberBoxAnc.open .description, #memberBoxGab.open .description, #memberBoxMih.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,#memberBoxMel.open .description,
     #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description {
-        font-size: 10pt;
-        height: 58%;
-        padding: 0 1.5rem 0 1.5rem;
+        font-size: 9pt;
+        height: 60%;
+        width: fit-content;
+
      }
 
     .media h4{

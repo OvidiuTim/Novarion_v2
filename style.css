@@ -27,11 +27,18 @@ html{
 nav{
     display: flex;
     justify-content: space-around;
+    height: 5rem;
+    width: 100%;
+    background-color: #282560;
+    font-weight: normal;
+}
+.navWrapper{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     padding-top: 0.2rem;
     height: 5rem;
-    background-color: #282560;
-    font-weight: normal;
+    width: 70%;
 }
 
 nav img{
@@ -40,7 +47,7 @@ nav img{
 
 .navlinks{
     display: flex;
-    width: 25%;
+    width: 40%;
     justify-content: space-around;
 }
 
@@ -175,7 +182,7 @@ header .btnProjects:hover{
     flex-direction: column;
     justify-content: center !important;
     align-items: center;
-    height: 25rem;
+    height: 23rem;
     background-image: url(/media/Asset\ 2.png);
     background-position: right;
     background-repeat: no-repeat;
@@ -275,12 +282,12 @@ margin-top:2rem ;
 
 
 .services{
-    margin-top:6rem;
+    margin: 0 !important;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
-    height: 30rem;
+    justify-content: center;
+    height: 40rem;
     background-image: url(/media/Asset\ 3.png);
     background-position: bottom 0% left;
     background-repeat: no-repeat;
@@ -318,6 +325,7 @@ margin-top:2rem ;
 }
 
 .theServices h3{
+    text-align: center;
     font-weight: normal;
     font-size: 14pt;
     letter-spacing: 0.05rem;
@@ -1124,6 +1132,12 @@ p.description{
     }
 }
 
+@media screen and (max-width:1690px){
+    .echipaMotivata{
+        height:45rem;
+    }
+}
+
 @media screen and (max-width:1750px){
     .echipa{
         height: 210rem;
@@ -1165,7 +1179,7 @@ p.description{
     }
     .header h1{
         font-size: 33pt;
-        line-height: 3rem;
+        line-height: 2rem;
     }
     .aboutUs{
         background-image:none !important;
@@ -1188,10 +1202,15 @@ p.description{
         display: flex;
         flex-direction:column !important;
         justify-content: center !important;
-        align-items: center !important;
         margin: 0 !important;
         padding: 0 !important;
         width: 80%!important;
+    }
+    .echipaMotivata h4{
+        text-align: center;
+    }
+    .echipaMotivata p{
+        margin-bottom: 1.5rem !important;
     }
 
     .secondImg{
@@ -1204,14 +1223,16 @@ p.description{
         align-items: center !important;
         justify-content: center !important;
         height: 40rem !important;
-        margin-top: 0 !important;
-        padding-top: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
         background-position: bottom -4% left -10% ;
     }
     .services p{
         width: 80% !important;
     }
-
+    .theServices{
+        width: 80% !important;
+    }
     .ser{
         display: flex;
         flex-direction: column;
@@ -1328,7 +1349,7 @@ p.description{
     }    
 }
 
-
+/*PHONE*/
 @media screen and (max-width:760px){
     body{
         overflow-x:hidden ;
@@ -1355,11 +1376,11 @@ p.description{
         cursor: pointer;
     }
     .header h3{
-        font-size: 1rem;
+        font-size: 16pt;
     }
     .header h1{
-        font-size: 2rem;
-        line-height: 2rem;  
+        font-size: 26pt;
+        line-height: 1rem;  
     }
 
     .aboutUs{
@@ -1652,4 +1673,3 @@ p.description{
 .toggle .line3{
     transform: rotate(45deg) translate(-15px, -5px);
 }
-

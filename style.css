@@ -699,13 +699,7 @@ p.description{
     max-height: 47rem;
 }
 /*sixth row*/  
-{
-    display: inline;
-    background-color: #ffffff;
-    height: 25rem;
-    font-size: 1rem;
-    margin-top: 1rem;
-}
+
 
 
 #memberBox.opacity, #memberBoxAlex.opacity, #memberBoxLiv.opacity, #memberBoxFlo.opacity , #memberBoxOvi.opacity , #memberBoxDen.opacity , #memberBoxRaz.opacity, #memberBoxAnc.opacity, 

@@ -398,11 +398,12 @@ header .btnProjects:hover{
     align-items: center;
     justify-content: center;
     height: 15.8rem;
-    width: 30%;
+    width: 15.8rem;
     background-image: url("media/The\ River\ Hotel_preview.jpg");
     background-size: cover; 
     filter: grayscale(100%);
     transition: all 0,5s;
+    margin: min(1rem);
 }
 .projectsBtns1 .aGreyBlock1{
     height: 93%;
@@ -432,10 +433,11 @@ header .btnProjects:hover{
     align-items: center;
     justify-content: center;
     height: 15.8rem;
-    width: 30%;
+    width: 15.8rem;
     background-image: url("media/The\ Lake\ Home_preview.jpg");
     background-size: cover; 
     filter: grayscale(100%);
+    margin: min(1rem);
 }
 .aGreyBlock2{
     height: 93%;
@@ -466,10 +468,11 @@ header .btnProjects:hover{
     align-items: center;
     justify-content: center;
     height: 15.8rem;
-    width: 30%;
+    width: 15.8rem;
     background-image: url("media/The\ River\ Chalet_preview.jpg");
     background-size: cover; 
     filter: grayscale(100%);
+    margin: min(1rem);
 }
 .aGreyBlock3{
     height: 93%;
@@ -591,9 +594,9 @@ p.description{
     overflow: hidden;
     filter: grayscale(100%);
     /* transition open member box*/
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0,7s;
-    transition: max-height 0,7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0,7s;
+    transition: all 0,7s;
 }
 
 #memberBox.open, #memberBoxAlex.open,  #memberBoxLiv.open , #memberBoxFlo.open,  #memberBoxOvi.open , #memberBoxDen.open , #memberBoxRaz.open, #memberBoxAnc.open, #memberBoxGab.open, #memberBoxMih.open, #memberBoxRal.open,#memberBoxLuc.open,#memberBoxDel.open,#memberBoxMel.open,#memberBoxSte.open,
@@ -679,14 +682,6 @@ p.description{
     box-shadow: 0 0 1rem rgba(0,0,0,.1);
 }
 
-#spaceBtw{
-    width: 100%;
-    height: 1rem;
-    background-color: #ffffff;
-}
-#spaceBtw.height{
-    height: 25rem;
-}
 
 /*MEDIA*/
 .media{
@@ -1179,14 +1174,25 @@ p.description{
         font-size: 16pt;
         margin-top: 2rem;
     }
+    .threeProjects{
+        width: 90%;
+        justify-content: space-between;
+    }
     .projectsBtns1{
         height: 14rem !important;
+        width: 14rem !important;
+        margin: min(0.5rem);
+
     }
     .projectsBtns2{
         height: 14rem !important;
+        width: 14rem !important;
+        margin: min(0.5rem);
     }
     .projectsBtns3{
         height: 14rem !important;
+        width: 14rem !important;
+        margin: min(0.5rem);
     }
 
     .echipa{
@@ -1592,4 +1598,3 @@ p.description{
     transform: rotate(45deg) translate(-15px, -5px);
 }
 
-}

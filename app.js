@@ -1267,7 +1267,7 @@ const navSlide = () => {
 		  memberBoxSim.className = "";
 		  memberBoxDan.className = "";
 		  memberBoxRau.className = "";
-		  spaceBtw.className = "";
+
 
 	  } else {
 		  //expand the box
@@ -1293,7 +1293,7 @@ const navSlide = () => {
 		  memberBoxSim.className = "opacity";
 		  memberBox.className = "opacity";
 		  memberBoxRau.className = "opacity";
-		  spaceBtw.className = "height";
+
 	  }
   }
 

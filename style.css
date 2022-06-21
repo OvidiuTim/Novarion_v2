@@ -707,6 +707,10 @@ p.description{
     box-shadow: 0 0 1rem rgba(0,0,0,.1);
 }
 
+#Exitclick.open{
+    width: 100%;
+    height: 100%;
+}
 
 /*MEDIA*/
 .media{
@@ -1336,7 +1340,7 @@ p.description{
     .navlinks{
         position: absolute;
         right: 0px;
-        height: 30rem;
+        height: 20rem;
         top: 5rem;
         background-color: #282560;
         opacity: 100%;

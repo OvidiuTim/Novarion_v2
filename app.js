@@ -56,11 +56,19 @@ const navSlide = () => {
 	memberBoxDan.className = "";
 	memberBoxRau.className = "";
   }}
+  
+  var click = document.getElementById("Exitclick")
+  click.onclick = function(){
+	Exitclick.className = "open";
+	
+
+  }
 
 
   button.onclick = function(){
+
 	  if(memberBox.className == "open")
-	  {
+	  { 
 		  //srink the box
 		  memberBox.className = "";
 		  memberBoxAlex.className = "";
@@ -84,10 +92,13 @@ const navSlide = () => {
 		  memberBoxSim.className = "";
 		  memberBoxDan.className = "";
 		  memberBoxRau.className = "";
+		  
+
 
 		  
 
 	  } else {
+
 		  //expand the box
 		  memberBox.className = "open";
 

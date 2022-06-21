@@ -610,16 +610,20 @@ p.description{
 
 #memberBoxDan.open .description, #memberBoxRau.open .description,#memberBoxSte.open .description,#memberBox.open .description, #memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description, #memberBoxAnc.open .description, #memberBoxGab.open .description, #memberBoxMih.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,#memberBoxMel.open .description,
 #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description {
-    display: inline;
-    background-color: #ffffff;
-    opacity: 90%;
-    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
     width: 16.25rem;
     height: 16.25rem;
-    position: absolute;
     z-index: 1;
-
+    background-color: #ffffff;
+    opacity: 90%;
+    font-size: 13pt;
+    line-height: 1.2rem;
+    padding: 0 1rem 0 1rem; 
 }
+
 #memberBox.open .nameJob, #memberBoxAlex.open .nameJob,  #memberBoxLiv.open .nameJob, #memberBoxFlo.open .nameJob,  #memberBoxOvi.open .nameJob, #memberBoxDen.open .nameJob, #memberBoxRaz.open .nameJob, #memberBoxAnca .open.nameJob,#memberBoxAnc.open .nameJob ,#memberBoxAnc.open .nameJob , #memberBoxGab.open .nameJob ,  #memberBoxMih.open .nameJob , #memberBoxRal.open .nameJob ,#memberBoxLuc.open .nameJob ,#memberBoxDel.open .nameJob ,#memberBoxMel.open .nameJob ,#memberBoxSte.open .nameJob ,
 #memberBoxCri.open .nameJob ,#memberBoxCrs.open .nameJob ,#memberBoxAle.open .nameJob ,#memberBoxAnd.open .nameJob ,#memberBoxSim.open .nameJob, #memberBoxDan.open .nameJob, #memberBoxRau.open .nameJob {
     width: 100%;
@@ -1083,6 +1087,11 @@ p.description{
     display: flex;
     flex-direction: column;
     flex: 1 0 30%;
+    }
+    #memberBoxDan.open .description, #memberBoxRau.open .description,#memberBoxSte.open .description,#memberBox.open .description, #memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description, #memberBoxAnc.open .description, #memberBoxGab.open .description, #memberBoxMih.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,#memberBoxMel.open .description,
+    #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description {
+    font-size: 12pt;
+    }
 }
 @media screen and (max-width:1200px){
     .echipa{
@@ -1188,7 +1197,7 @@ p.description{
     display: flex;
     flex-direction: column;
     flex: 1 0 40%;
-}
+    }
 
     .ppl{
         width: 60%;
@@ -1383,12 +1392,9 @@ p.description{
         height: 290rem;
         width: 100%;
     }
-    .echipa p{
+    .ppl{
         width: 80%;
-    }
-    .nameJob p{
-        font-size: 10pt;
-        text-align: center;
+        font-size: 1.2rem;
     }
     .onerow{
         width: 80%;
@@ -1400,11 +1406,18 @@ p.description{
         flex-direction: column;
         flex: 1 0 50%;
         max-width: 45%;
+        padding-top: 0 !important;
     }
     #memberBox img, #memberBoxAlex img, #memberBoxLiv img, #memberBoxFlo img, #memberBoxOvi img, #memberBoxDen img, #memberBoxRaz img, #memberBoxAnca img, #memberBox img,#memberBoxAnc img,  #memberBoxAnc img, #memberBoxGab img, #memberBoxMih img, #memberBoxRal img,#memberBoxLuc img,#memberBoxDel img,#memberBoxMel img,#memberBoxSte img,
     #memberBoxCri img,#memberBoxCrs img,#memberBoxAle img,#memberBoxAnd img,#memberBoxSim img, #memberBoxDan img,#memberBoxRau img {    
-        height: 65%;
+        height: 60%;
     }
+    #memberBoxDan.open .description, #memberBoxRau.open .description,#memberBoxSte.open .description,#memberBox.open .description, #memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description, #memberBoxAnc.open .description, #memberBoxGab.open .description, #memberBoxMih.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,#memberBoxMel.open .description,
+    #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description {
+        font-size: 10pt;
+        height: 58%;
+        padding: 0 1.5rem 0 1.5rem;
+     }
 
     .media h4{
         font-size: 2rem !important;

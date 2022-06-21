@@ -30,6 +30,33 @@ const navSlide = () => {
   var content = document.getElementById("memberBox")
   var button = document.getElementById("showmore")
 
+  const boxes = document.querySelectorAll('#showless, #showlessA,#showlessLiv,#showlessFlo,#showlessOvi,#showlessDen,#showlessRaz, #showlessAnc,#showlessGab, #showlessMih, #showlessRal, #showlessLuc, #showlessDel, #showlessMel, #showlessSte, #showlessCri, #showlessCrs, #showlessAle, #showlessAnd, #showlessSim,#showlessDan, #showlessRau');
+  for (var i = 0; i < boxes.length; i++) {
+  boxes[i].onclick = function(){
+	memberBox.className = "";
+	memberBoxAlex.className = "";
+	memberBoxLiv.className = "";
+	memberBoxFlo.className = "";
+	memberBoxOvi.className = "";
+	memberBoxDen.className = "";
+	memberBoxRaz.className = "";
+	memberBoxAnc.className = "";
+	memberBoxGab.className = "";
+	memberBoxMih.className = "";
+	memberBoxRal.className = "";
+	memberBoxLuc.className = "";
+	memberBoxDel.className = "";
+	memberBoxMel.className = "";
+	memberBoxSte.className = "";
+	memberBoxCri.className = "";
+	memberBoxCrs.className = "";
+	memberBoxAle.className = "";
+	memberBoxAnd.className = "";
+	memberBoxSim.className = "";
+	memberBoxDan.className = "";
+	memberBoxRau.className = "";
+  }}
+
 
   button.onclick = function(){
 	  if(memberBox.className == "open")

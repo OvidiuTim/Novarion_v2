@@ -609,7 +609,7 @@ p.description{
     filter: grayscale(100%);
 }
 
-#memberBox.open .description, #memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description, #memberBoxAnc.open .description, #memberBoxGab.open .description, #memberBoxMih.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,#memberBoxMel.open .description,
+#memberBoxDan.open .description, #memberBoxRau.open .description,#memberBoxSte.open .description,#memberBox.open .description, #memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description, #memberBoxAnc.open .description, #memberBoxGab.open .description, #memberBoxMih.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,#memberBoxMel.open .description,
 #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description {
     display: inline;
     background-color: #ffffff9e;
@@ -642,14 +642,7 @@ p.description{
 }
 
 /*Stefan*/
-#memberBoxSte.open .description{
-    display: inline;
-    background-color: #ffffff;
-    height: 40rem;
-    font-size: 1rem;
-    margin-top: 1rem;
 
-}
 /*fifth row*/  
 #memberBoxCrs.open,#memberBoxAle.open,#memberBoxAnd.open,#memberBoxSim.open{
     cursor: pointer;
@@ -657,13 +650,7 @@ p.description{
     max-height: 47rem;
 }
 /*sixth row*/  
-#memberBoxDan.open .description, #memberBoxRau.open .description{
-    display: inline;
-    background-color: #ffffff;
-    height: 25rem;
-    font-size: 1rem;
-    margin-top: 1rem;
-}
+
 
 
 #memberBox.opacity, #memberBoxAlex.opacity, #memberBoxLiv.opacity, #memberBoxFlo.opacity , #memberBoxOvi.opacity , #memberBoxDen.opacity , #memberBoxRaz.opacity, #memberBoxAnc.opacity, 

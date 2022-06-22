@@ -25,10 +25,11 @@ const navSlide = () => {
   navSlide();
 
 
-  const memberB = document.querySelectorAll('#memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,#memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv ');
+  const memberB = document.querySelectorAll('#memberBox,#memberBoxGeo ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,#memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv ');
   for (let i = 0; i < memberB.length; i++) 
     memberB[i].onclick = function(){
 		memberBox.className = "opacity";
+		memberBoxGeo.className = "opacity";
 		memberBoxAlex.className = "opacity";
 		memberBoxLiv.className = "opacity";
 		memberBoxFlo.className = "opacity";

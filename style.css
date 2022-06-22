@@ -1143,7 +1143,7 @@ p.description{
     }
 
 
-    #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte, #memberBoxGeo
+    #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte, #memberBoxGeo, 
     #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv  {
     display: flex;
     flex-direction: column;
@@ -1163,7 +1163,7 @@ p.description{
 
 @media screen and (max-width:1600px){
     .echipa{
-        height: 285rem;
+        height: 310rem;
     }
 
     #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte, #memberBoxGeo, 
@@ -1329,7 +1329,7 @@ p.description{
         column-gap: 2em;
     }
     .echipa{
-        height: 260rem !important;
+        height: 280rem !important;
     }
     .onerow{
         width: 80%;
@@ -1365,7 +1365,10 @@ p.description{
         line-height: 1.2rem;
         margin-top: 0.3rem !important;
     }
-
+    .media{
+        height: 98rem;
+        padding: 0 !important;
+    }
 
     .introP{
         margin-top: 1rem;
@@ -1374,6 +1377,7 @@ p.description{
     }
     .timeline{
         width: 80%;
+        margin-bottom: 10rem;
     }
     .box{
         width: 100%;
@@ -1563,7 +1567,7 @@ p.description{
         width: 20rem  !important;
     }
     .echipa{
-        height: 290rem;
+        height: 260rem !important;
         width: 100%;
     }
     .ppl{

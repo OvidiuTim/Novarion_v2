@@ -115,7 +115,7 @@ nav img{
     justify-content: center;
     align-items: center;
     background-position: center bottom;
-    background-image:url(/media/NOVARION_theme\ photo_1.png);   
+    background-image: url(media/header\ image2.jpg); 
     background-size: cover;
 }
 
@@ -599,7 +599,7 @@ p.description{
 
 
 /*when clicked*/
-#memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
+#memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte, #memberBoxGeo,
 #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv  {
     display: flex;
     flex-direction: column;
@@ -616,20 +616,20 @@ p.description{
     transition: all 0,7s;
 }
 
-#memberBox.open, #memberBoxAlex.open,  #memberBoxLiv.open , #memberBoxFlo.open,  #memberBoxOvi.open , #memberBoxDen.open , #memberBoxRaz.open, #memberBoxAnc.open, #memberBoxGab.open, #memberBoxMih.open, #memberBoxRal.open,#memberBoxLuc.open,#memberBoxDel.open,#memberBoxMel.open,#memberBoxSte.open,
+#memberBox.open, #memberBoxAlex.open,  #memberBoxLiv.open , #memberBoxFlo.open,  #memberBoxOvi.open , #memberBoxDen.open , #memberBoxRaz.open, #memberBoxAnc.open, #memberBoxGab.open, #memberBoxMih.open, #memberBoxRal.open,#memberBoxLuc.open,#memberBoxDel.open,#memberBoxMel.open,#memberBoxSte.open, #memberBoxGeo.open,
 #memberBoxCri.open, #memberBoxDan.open, #memberBoxRau.open {
     cursor: pointer;
     filter: grayscale(0%);
 }
 
-#memberBox.open img, #memberBoxAlex.open img ,  #memberBoxLiv.open img, #memberBoxFlo.open img,  #memberBoxOvi.open img, #memberBoxDen.open img, #memberBoxRaz.open img, #memberBoxAnc.open img, #memberBoxGab.open img, #memberBoxMih.open img, #memberBoxRal.open img ,#memberBoxLuc.open img ,#memberBoxDel.open img,#memberBoxMel.open img,#memberBoxSte.open img,
+#memberBox.open img, #memberBoxAlex.open img ,  #memberBoxLiv.open img, #memberBoxFlo.open img,  #memberBoxOvi.open img, #memberBoxDen.open img, #memberBoxRaz.open img, #memberBoxAnc.open img, #memberBoxGab.open img, #memberBoxMih.open img, #memberBoxRal.open img ,#memberBoxLuc.open img ,#memberBoxDel.open img,#memberBoxMel.open img,#memberBoxSte.open img, #memberBoxGeo.open img, 
 #memberBoxCri.open img, #memberBoxDan.open img, #memberBoxRau.open img{
     opacity: 0.5;
     filter: grayscale(100%);
 }
 
 #memberBoxDan.open .description, #memberBoxRau.open .description,#memberBoxSte.open .description,#memberBox.open .description, #memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description, #memberBoxAnc.open .description, #memberBoxGab.open .description, #memberBoxMih.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,#memberBoxMel.open .description,
-#memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description {
+#memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description, #memberBoxGeo.open .description {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -649,20 +649,20 @@ p.description{
     text-align: center;
 }
 
-#memberBox.open .nameJob, #memberBoxAlex.open .nameJob,  #memberBoxLiv.open .nameJob, #memberBoxFlo.open .nameJob,  #memberBoxOvi.open .nameJob, #memberBoxDen.open .nameJob, #memberBoxRaz.open .nameJob, #memberBoxAnca .open.nameJob,#memberBoxAnc.open .nameJob ,#memberBoxAnc.open .nameJob , #memberBoxGab.open .nameJob ,  #memberBoxMih.open .nameJob , #memberBoxRal.open .nameJob ,#memberBoxLuc.open .nameJob ,#memberBoxDel.open .nameJob ,#memberBoxMel.open .nameJob ,#memberBoxSte.open .nameJob ,
+#memberBox.open .nameJob, #memberBoxAlex.open .nameJob,  #memberBoxLiv.open .nameJob, #memberBoxFlo.open .nameJob,  #memberBoxOvi.open .nameJob, #memberBoxDen.open .nameJob, #memberBoxRaz.open .nameJob, #memberBoxAnca .open.nameJob,#memberBoxAnc.open .nameJob ,#memberBoxAnc.open .nameJob , #memberBoxGab.open .nameJob ,  #memberBoxMih.open .nameJob , #memberBoxRal.open .nameJob ,#memberBoxLuc.open .nameJob ,#memberBoxDel.open .nameJob ,#memberBoxMel.open .nameJob ,#memberBoxSte.open .nameJob , #memberBoxGeo.open .nameJob, 
 #memberBoxCri.open .nameJob ,#memberBoxCrs.open .nameJob ,#memberBoxAle.open .nameJob ,#memberBoxAnd.open .nameJob ,#memberBoxSim.open .nameJob, #memberBoxDan.open .nameJob, #memberBoxRau.open .nameJob {
     width: 100%;
     height: 100%;
 
 }
-#memberBox img, #memberBoxAlex img, #memberBoxLiv img, #memberBoxFlo img, #memberBoxOvi img, #memberBoxDen img, #memberBoxRaz img, #memberBoxAnca img, #memberBox img,#memberBoxAnc img,  #memberBoxAnc img, #memberBoxGab img, #memberBoxMih img, #memberBoxRal img,#memberBoxLuc img,#memberBoxDel img,#memberBoxMel img,#memberBoxSte img,
+#memberBox img, #memberBoxAlex img, #memberBoxLiv img, #memberBoxFlo img, #memberBoxOvi img, #memberBoxDen img, #memberBoxRaz img, #memberBoxAnca img, #memberBox img,#memberBoxAnc img,  #memberBoxAnc img, #memberBoxGab img, #memberBoxMih img, #memberBoxRal img,#memberBoxLuc img,#memberBoxDel img,#memberBoxMel img,#memberBoxSte img, #memberBoxGeo img, 
 #memberBoxCri img,#memberBoxCrs img,#memberBoxAle img,#memberBoxAnd img,#memberBoxSim img, #memberBoxDan img,#memberBoxRau img {
     height: 16.25rem;
     width: 16.25rem;
     object-fit: cover;
     object-position: 100% 20%;
 }
-#memberBox:hover, #memberBoxAlex:hover, #memberBoxLiv:hover, #memberBoxFlo:hover , #memberBoxOvi:hover , #memberBoxDen:hover , #memberBoxRaz:hover , #memberBoxAnca:hover, #memberBoxAnc:hover, #memberBoxAnc:hover, #memberBoxGab:hover, #memberBoxMih:hover, #memberBoxRal:hover,#memberBoxLuc:hover,#memberBoxDel:hover,#memberBoxMel:hover,#memberBoxSte:hover,
+#memberBox:hover, #memberBoxAlex:hover, #memberBoxLiv:hover, #memberBoxFlo:hover , #memberBoxOvi:hover , #memberBoxDen:hover , #memberBoxRaz:hover , #memberBoxAnca:hover, #memberBoxAnc:hover, #memberBoxAnc:hover, #memberBoxGab:hover, #memberBoxMih:hover, #memberBoxRal:hover,#memberBoxLuc:hover,#memberBoxDel:hover,#memberBoxMel:hover,#memberBoxSte:hover, #memberBoxGeo:hover, 
 #memberBoxCri:hover,#memberBoxCrs:hover,#memberBoxAle:hover,#memberBoxAnd:hover,#memberBoxSim:hover,#memberBoxDan:hover,#memberBoxRau:hover {
     cursor: pointer;
     filter: grayscale(0%)
@@ -680,13 +680,13 @@ p.description{
 
 
 #memberBox.opacity:hover, #memberBoxAlex.opacity:hover, #memberBoxLiv.opacity:hover, #memberBoxFlo.opacity:hover , #memberBoxOvi.opacity:hover , #memberBoxDen.opacity:hover , #memberBoxRaz.opacity:hover, #memberBoxAnc.opacity:hover, 
-#memberBoxGab.opacity:hover, #memberBoxMih.opacity:hover,#memberBoxRal.opacity:hover,#memberBoxLuc.opacity:hover,#memberBoxDel.opacity:hover,#memberBoxMel.opacity:hover,#memberBoxSte.opacity:hover,#memberBoxCri.opacity:hover,
+#memberBoxGab.opacity:hover, #memberBoxMih.opacity:hover,#memberBoxRal.opacity:hover,#memberBoxLuc.opacity:hover,#memberBoxDel.opacity:hover,#memberBoxMel.opacity:hover,#memberBoxSte.opacity:hover,#memberBoxGeo.opacity:hover, #memberBoxCri.opacity:hover,
 #memberBoxCrs.opacity:hover,#memberBoxAle.opacity:hover,#memberBoxAnd.opacity:hover,#memberBoxSim.opacity:hover,#memberBoxDan.opacity:hover, #memberBoxRau.opacity:hover{
     opacity: 1;
 }
 
 #memberBox.opacity, #memberBoxAlex.opacity, #memberBoxLiv.opacity, #memberBoxFlo.opacity , #memberBoxOvi.opacity , #memberBoxDen.opacity , #memberBoxRaz.opacity, #memberBoxAnc.opacity, 
-#memberBoxGab.opacity, #memberBoxMih.opacity,#memberBoxRal.opacity,#memberBoxLuc.opacity,#memberBoxDel.opacity,#memberBoxMel.opacity,#memberBoxSte.opacity,#memberBoxCri.opacity,
+#memberBoxGab.opacity, #memberBoxMih.opacity,#memberBoxRal.opacity,#memberBoxLuc.opacity,#memberBoxDel.opacity,#memberBoxMel.opacity,#memberBoxSte.opacity, #memberBoxGeo.opacity, #memberBoxCri.opacity,
 #memberBoxCrs.opacity,#memberBoxAle.opacity,#memberBoxAnd.opacity,#memberBoxSim.opacity,#memberBoxDan.opacity, #memberBoxRau.opacity{
     opacity: 0.5;
 }
@@ -1143,14 +1143,14 @@ p.description{
     }
 
 
-    #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
+    #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte, #memberBoxGeo
     #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv  {
     display: flex;
     flex-direction: column;
     flex: 1 0 33%;
     }
     #memberBoxDan.open .description, #memberBoxRau.open .description,#memberBoxSte.open .description,#memberBox.open .description, #memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description, #memberBoxAnc.open .description, #memberBoxGab.open .description, #memberBoxMih.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,#memberBoxMel.open .description,
-    #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description {
+    #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description, #memberBoxGeo.open .description {
     font-size: 12pt;
     }
 }
@@ -1166,7 +1166,7 @@ p.description{
         height: 285rem;
     }
 
-    #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
+    #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte, #memberBoxGeo, 
     #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv  {
     display: flex;
     flex-direction: column;
@@ -1179,16 +1179,22 @@ p.description{
 
 @media screen and (max-width:1435px){
     .footer{
-        background-position: center left -3.5rem;
+        background-position: center left -6rem;
+    }
+    .wrapperFooter{
+        width: 85%;
     }
     .footer1{
-        width: 25%;
+        width: 23%;
     }
     .footer2{
-        width: 25%;
+        width: 23%;
+    }
+    .socialIcons{
+        width: 90%;
     }
     .footer3{
-        width: 25%;
+        width: 23%;
     }
 }
 
@@ -1323,14 +1329,29 @@ p.description{
         column-gap: 2em;
     }
     .echipa{
-        height: 280rem;
+        height: 260rem !important;
     }
-    #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
+    .onerow{
+        width: 80%;
+    }
+    #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte, #memberBoxGeo,
     #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv  {
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 40%;
+        display: flex;
+        flex-direction: column;
+        flex: 1 0 40%;
     }
+    #memberBox img, #memberBoxAlex img, #memberBoxLiv img, #memberBoxFlo img, #memberBoxOvi img, #memberBoxDen img, #memberBoxRaz img, #memberBoxAnca img, #memberBox img,#memberBoxAnc img,  #memberBoxAnc img, #memberBoxGab img, #memberBoxMih img, #memberBoxRal img,#memberBoxLuc img,#memberBoxDel img,#memberBoxMel img,#memberBoxSte img,#memberBoxGeo img, 
+    #memberBoxCri img,#memberBoxCrs img,#memberBoxAle img,#memberBoxAnd img,#memberBoxSim img, #memberBoxDan img,#memberBoxRau img {    
+        height: 14rem;
+        width: 14rem;
+    }
+    #memberBoxDan.open .description, #memberBoxRau.open .description,#memberBoxSte.open .description,#memberBox.open .description, #memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description, #memberBoxAnc.open .description, #memberBoxGab.open .description, #memberBoxMih.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,#memberBoxMel.open .description,
+    #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description, #memberBoxGeo.open .description {
+        font-size: 11pt;
+        height: 14rem;
+        line-height: 1rem !important;
+        justify-content: center;
+     }
 
     .ppl{
         width: 60%;
@@ -1346,12 +1367,6 @@ p.description{
     }
 
 
-    .media{
-        padding-top: 2rem;
-    }
-    .timeline{
-        padding-bottom: 2rem;
-    }
     .introP{
         margin-top: 1rem;
         margin-bottom: 5rem;
@@ -1445,18 +1460,19 @@ p.description{
         cursor: pointer;
     }
     .header h3{
-        font-size: 16pt;
+        font-size: 15pt;
+        line-height: 1.5rem;
     }
     .header h1{
-        font-size: 26pt;
-        line-height: 1rem;  
+        font-size: 22pt; 
+        line-height: 1rem;
     }
 
     .aboutUs{
         width: 98%;
         margin-top: 1rem;
         background-image:none !important;
-        height: 20rem !important;
+        height: 25rem !important;
     }
     .aboutUs h4{
         font-size: 2rem !important;
@@ -1509,7 +1525,7 @@ p.description{
     }
     
     .projects{
-        height: 90rem !important;
+        height: 110rem !important;
     }
     .projects h4{
         font-size: 2rem !important;
@@ -1517,8 +1533,8 @@ p.description{
     .projects p{
         margin: 0 !important;
         font-size: 1.2rem;
-        padding-top:2rem;
-        padding-bottom: 2rem;
+        padding-top:3rem;
+        padding-bottom: 4rem;
     }
     .threeProjects{
         display: flex;
@@ -1526,6 +1542,7 @@ p.description{
         align-items: center;
         justify-content: center;
         width: 90%;
+        row-gap: 2em;
     }
     .projectsBtns1{
         width: 90%;
@@ -1536,7 +1553,7 @@ p.description{
     .projectsBtns2{
         width: 90%;
         margin-bottom: 1.5rem;
-        height: 20rem !important;
+        height:20rem !important;
         width: 20rem  !important;
     }
     .projectsBtns3{
@@ -1557,7 +1574,7 @@ p.description{
         width: 80%;
     }
 
-    #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
+    #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte, #memberBoxGeo,
     #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv  {
         display: flex;
         flex-direction: column;
@@ -1565,16 +1582,20 @@ p.description{
         max-width: 45%;
         padding-top: 0 !important;
     }
-    #memberBox img, #memberBoxAlex img, #memberBoxLiv img, #memberBoxFlo img, #memberBoxOvi img, #memberBoxDen img, #memberBoxRaz img, #memberBoxAnca img, #memberBox img,#memberBoxAnc img,  #memberBoxAnc img, #memberBoxGab img, #memberBoxMih img, #memberBoxRal img,#memberBoxLuc img,#memberBoxDel img,#memberBoxMel img,#memberBoxSte img,
+    #memberBox img, #memberBoxAlex img, #memberBoxLiv img, #memberBoxFlo img, #memberBoxOvi img, #memberBoxDen img, #memberBoxRaz img, #memberBoxAnca img, #memberBox img,#memberBoxAnc img,  #memberBoxAnc img, #memberBoxGab img, #memberBoxMih img, #memberBoxRal img,#memberBoxLuc img,#memberBoxDel img,#memberBoxMel img,#memberBoxSte img, #memberBoxGeo img, 
     #memberBoxCri img,#memberBoxCrs img,#memberBoxAle img,#memberBoxAnd img,#memberBoxSim img, #memberBoxDan img,#memberBoxRau img {    
-        height: 60%;
+        height: 12rem;
+        width: 12rem;
+        margin-top: 3rem;
     }
     #memberBoxDan.open .description, #memberBoxRau.open .description,#memberBoxSte.open .description,#memberBox.open .description, #memberBoxAlex.open .description ,#memberBoxLiv.open .description, #memberBoxFlo.open .description, #memberBoxOvi.open .description , #memberBoxDen.open .description , #memberBoxRaz.open .description, #memberBoxAnc.open .description, #memberBoxGab.open .description, #memberBoxMih.open .description, #memberBoxRal.open .description,#memberBoxLuc.open .description,#memberBoxDel.open .description,#memberBoxMel.open .description,
-    #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description {
+    #memberBoxCri.open .description,#memberBoxCrs.open .description,#memberBoxAle.open .description,#memberBoxAnd.open .description,#memberBoxSim.open .description, #memberBoxGeo.open .description{
         font-size: 9pt;
-        height: 60%;
-        width: fit-content;
-
+        justify-content: center;
+        height: 80%;
+        width: 12rem;
+        line-height: 1rem !important;
+        padding: 2rem 0.8rem 0 0.8rem !important;
      }
 
     .media h4{
@@ -1638,7 +1659,7 @@ p.description{
         line-height: 1.5rem;
     }
     .footer1{
-        height: 10rem !important;
+        height: 5rem !important;
         width: 70%;
         display: flex;
         flex-direction: column;

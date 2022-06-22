@@ -365,7 +365,6 @@ margin-top:2rem ;
 }
 
 
-
 .projects{
     display: flex;
     flex-direction: column;
@@ -393,7 +392,6 @@ margin-top:2rem ;
     font-weight: lighter;
     text-align: center;
     margin-bottom: 0.5rem;
-    margin-top:3rem ;
 }
 
 .projects p{
@@ -413,10 +411,10 @@ margin-top:2rem ;
 .threeProjects{
     display: flex;
     flex-direction: row ;
-    justify-content: space-between;
+    justify-content: center;
+    justify-items: center;
     align-items: center;
-    width: 45%;
-    margin-bottom: 3rem;
+    column-gap: 5em;
 }
 
 .projectsBtns1{

@@ -119,15 +119,6 @@ nav img{
     background-size: cover;
 }
 
-/*.headerImg{
-    height: 42.125rem;
-    width: 100%;
-    position:static;
-    background-position: center bottom;
-    background-image:url(/media/NOVARION_theme\ photo_1.png);   
-    background-size: cover;
-    opacity: 90%;
-}*/
 .wrapperHeader{
     display: flex;
     flex-direction:column;
@@ -136,9 +127,9 @@ nav img{
     width: 70%;
 }
 .header h3{
-    color: #ffffff;
+    color: #25a8e0;
     font-family: 'Bicyclette', sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 20pt;
     letter-spacing: 0.125rem;
 }
@@ -183,7 +174,7 @@ header .btnProjects:hover{
     flex-direction: column;
     justify-content: center !important;
     align-items: center;
-    height: 23rem;
+    height: 24rem;
     background-image: url(/media/Asset\ 2.png);
     background-position: right;
     background-repeat: no-repeat;
@@ -196,11 +187,11 @@ header .btnProjects:hover{
     letter-spacing:0.125rem ;
     font-weight: lighter;
     text-align: center;
-    padding: 0.3em;
 }
 
 .aboutUs .blueBar{
-margin-top:2rem ;
+    margin-top:2.5rem ;
+    margin-bottom: 3rem;
     border-color: none;
     background-color:#25a8e0;
     height: 6px;
@@ -210,18 +201,17 @@ margin-top:2rem ;
 .aboutUs p{
     color: #212121;
     font-weight: lighter;
-    padding-top: 2em;
     font-size: 16pt;
     text-align: center;
     line-height: 25pt;
     letter-spacing:0.05rem;
-    width: 50%;
+    width: 60%;
 }
 
 
 .echipaMotivata{
     width: 100%;
-    height: 30rem;
+    height: 33rem;
     background-color: #d3eef9;
     display: flex;
     flex-direction:row;
@@ -568,7 +558,7 @@ margin-top:2rem ;
 .teamTable{
     display: flex;
     flex-direction: column;
-    justify-content: space-betwee;
+    justify-content: space-between;
     align-items: center;
 }
 .onerow{
@@ -588,6 +578,7 @@ margin-top:2rem ;
     text-transform: uppercase;
     text-align: center;
     color: #363636;
+    letter-spacing: 0.04rem;
 }
 .nameJob p{
     margin-top: 0.5rem;
@@ -597,6 +588,7 @@ margin-top:2rem ;
     color: #adadad;
     letter-spacing: 0.05rem;
     text-align: center;
+    letter-spacing: 0.04rem;
 }
 
 p.description{
@@ -646,14 +638,15 @@ p.description{
     height: 16.25rem;
     z-index: 1;
     background-color: #ffffff;
+    letter-spacing: 0.04rem;
     opacity: 90%;
     line-height: 1.2rem;
     padding: 0 1.7rem 0 1.7rem; 
-
     font-weight: lighter;
     font-size: 11.5pt;
     color:#212121;
     line-height: 1.35rem;
+    text-align: center;
 }
 
 #memberBox.open .nameJob, #memberBoxAlex.open .nameJob,  #memberBoxLiv.open .nameJob, #memberBoxFlo.open .nameJob,  #memberBoxOvi.open .nameJob, #memberBoxDen.open .nameJob, #memberBoxRaz.open .nameJob, #memberBoxAnca .open.nameJob,#memberBoxAnc.open .nameJob ,#memberBoxAnc.open .nameJob , #memberBoxGab.open .nameJob ,  #memberBoxMih.open .nameJob , #memberBoxRal.open .nameJob ,#memberBoxLuc.open .nameJob ,#memberBoxDel.open .nameJob ,#memberBoxMel.open .nameJob ,#memberBoxSte.open .nameJob ,
@@ -686,13 +679,16 @@ p.description{
 /*sixth row*/  
 
 
+#memberBox.opacity:hover, #memberBoxAlex.opacity:hover, #memberBoxLiv.opacity:hover, #memberBoxFlo.opacity:hover , #memberBoxOvi.opacity:hover , #memberBoxDen.opacity:hover , #memberBoxRaz.opacity:hover, #memberBoxAnc.opacity:hover, 
+#memberBoxGab.opacity:hover, #memberBoxMih.opacity:hover,#memberBoxRal.opacity:hover,#memberBoxLuc.opacity:hover,#memberBoxDel.opacity:hover,#memberBoxMel.opacity:hover,#memberBoxSte.opacity:hover,#memberBoxCri.opacity:hover,
+#memberBoxCrs.opacity:hover,#memberBoxAle.opacity:hover,#memberBoxAnd.opacity:hover,#memberBoxSim.opacity:hover,#memberBoxDan.opacity:hover, #memberBoxRau.opacity:hover{
+    opacity: 1;
+}
 
 #memberBox.opacity, #memberBoxAlex.opacity, #memberBoxLiv.opacity, #memberBoxFlo.opacity , #memberBoxOvi.opacity , #memberBoxDen.opacity , #memberBoxRaz.opacity, #memberBoxAnc.opacity, 
 #memberBoxGab.opacity, #memberBoxMih.opacity,#memberBoxRal.opacity,#memberBoxLuc.opacity,#memberBoxDel.opacity,#memberBoxMel.opacity,#memberBoxSte.opacity,#memberBoxCri.opacity,
 #memberBoxCrs.opacity,#memberBoxAle.opacity,#memberBoxAnd.opacity,#memberBoxSim.opacity,#memberBoxDan.opacity, #memberBoxRau.opacity{
     opacity: 0.5;
-    pointer-events: none;
-    
 }
 
 
@@ -884,6 +880,7 @@ p.description{
     font-weight: normal;
     font-size: 18pt;
     letter-spacing: 0.05rem;
+    line-height: 2rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
     text-align: left;
@@ -1200,19 +1197,19 @@ p.description{
         background-image: none;
     }
     .wrapperFooter{
-        width: 95%;
+        width: 94%;
     }
     .footer1{
-        width: 27%;
+        width: 23%;
     }
     .footer2{
-        width: 27%;
+        width: 23%;
     }
     .socialIcons{
         width: 90%;
     }
     .footer3{
-        width: 27%;
+        width: 23%;
     }
     .contactInfo{
         padding-right:0 !important;
@@ -1236,7 +1233,7 @@ p.description{
     }
     .aboutUs{
         background-image:none !important;
-        height: 20rem;
+        height: 25rem;
         padding-bottom: 1rem;
         margin-bottom: 0 !important;
     }
@@ -1295,7 +1292,7 @@ p.description{
         width: 30%;
     }
     .projects{
-        height: 38rem !important;
+        height: 45rem !important;
     }
     .projects p{
         width: 80%;
@@ -1303,8 +1300,8 @@ p.description{
         margin-top: 2rem;
     }
     .threeProjects{
+
         width: 90%;
-        justify-content: space-between;
     }
     .projectsBtns1{
         height: 14rem !important;
@@ -1322,7 +1319,9 @@ p.description{
         width: 14rem !important;
         margin: min(0.5rem);
     }
-
+    .threeProjects{
+        column-gap: 2em;
+    }
     .echipa{
         height: 280rem;
     }
@@ -1341,9 +1340,9 @@ p.description{
         font-size: 9pt;
     }
     .echipa .nameJob .Job{
-        padding-top: 0.5rem;
         font: 9pt !important;
         line-height: 1.2rem;
+        margin-top: 0.3rem !important;
     }
 
 
@@ -1402,6 +1401,11 @@ p.description{
     }    
 }
 
+@media screen and (max-width:880px){
+    .threeProjects{
+        column-gap: 1em;
+    }
+}    
 @media screen and (max-width:782px){
     .footer1{
         height: 23rem !important;
@@ -1505,7 +1509,7 @@ p.description{
     }
     
     .projects{
-        height: 68rem !important;
+        height: 90rem !important;
     }
     .projects h4{
         font-size: 2rem !important;
@@ -1521,18 +1525,25 @@ p.description{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        width: 90%;
     }
     .projectsBtns1{
         width: 90%;
         margin-bottom: 1.5rem;
+        height: 20rem !important;
+        width: 20rem  !important;
     }
     .projectsBtns2{
         width: 90%;
         margin-bottom: 1.5rem;
+        height: 20rem !important;
+        width: 20rem  !important;
     }
     .projectsBtns3{
         width: 90%;
         margin-bottom: 1.5rem;
+        height: 20rem !important;
+        width: 20rem  !important;
     }
     .echipa{
         height: 290rem;

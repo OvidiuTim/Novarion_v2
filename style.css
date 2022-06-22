@@ -27,6 +27,7 @@ html{
 nav{
     display: flex;
     justify-content: space-around;
+    align-items: start;
     height: 5rem;
     width: 100%;
     background-color: #282560;
@@ -607,9 +608,6 @@ p.description{
 }
 
 
-
-
-
 /*when clicked*/
 #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
 #memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv  {
@@ -830,7 +828,6 @@ p.description{
 
 .leftBar h3{
     color: #1076bc;
-
     font-weight: lighter;
     font-size: 14pt;
     text-align: right;
@@ -874,29 +871,34 @@ p.description{
 }
 
 .rightBar h3{
+    color: #1076bc;
     font-weight: lighter;
     font-size: 14pt;
-    color: #1076bc;
-    margin-bottom: 1rem;
     text-align: left;
+    line-height: 22pt;
+    letter-spacing:0.04rem;
 }
 
 .rightBar h2{
-    font-weight: normal;
     font-size: 16pt;
     color: #212121;
+    text-align: right;
+    font-weight: normal;
+    font-size: 18pt;
+    letter-spacing: 0.05rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     text-align: left;
     align-content: start;
 }
 
 .rightBar p{
+    text-align: left;
     font-weight: lighter;
     font-size: 14pt;
-    line-height: 1.8rem;
     color: #212121;
-    text-align: left;
-    margin: 0;
-    padding-top: 1.3rem;
+    line-height: 22pt;
+    letter-spacing:0.04rem;
 }
 
 
@@ -959,7 +961,6 @@ p.description{
 }
 
 .Form button{
-    margin-top: 4.25rem;
     font-weight: normal;
     font-size: 1.10rem;
     color: #363636;
@@ -967,8 +968,11 @@ p.description{
     padding: 1rem 2rem 0.7rem;
     background: none;
     border: solid #363636 0.125rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
     border-radius: 0.20rem;
     transition: all 0.25s;
+    margin-top: 4.25rem;
 }
 
 .Form button:hover{
@@ -1130,21 +1134,17 @@ p.description{
 }
 
 
+
+/*RESPONSIVE*/
 @media screen and (max-width:1200px){
     .specialH{
        text-align: center;
     }
 }
 
-@media screen and (max-width:1690px){
-    .echipaMotivata{
-        height:45rem;
-    }
-}
-
-@media screen and (max-width:1750px){
+@media screen and (max-width:2100px){
     .echipa{
-        height: 210rem;
+        height: 215rem;
     }
 
 
@@ -1159,9 +1159,16 @@ p.description{
     font-size: 12pt;
     }
 }
-@media screen and (max-width:1200px){
+
+@media screen and (max-width:1690px){
+    .echipaMotivata{
+        height:45rem;
+    }
+}
+
+@media screen and (max-width:1600px){
     .echipa{
-        height: 280rem;
+        height: 285rem;
     }
 
     #memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,
@@ -1169,9 +1176,53 @@ p.description{
     display: flex;
     flex-direction: column;
     flex: 1 0 40%;
-}
+    }
+    .socialIcons{
+        width: 80%;
+    }
 }
 
+@media screen and (max-width:1435px){
+    .footer{
+        background-position: center left -3.5rem;
+    }
+    .footer1{
+        width: 25%;
+    }
+    .footer2{
+        width: 25%;
+    }
+    .footer3{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:1150px){
+    .footer{
+        background-image: none;
+    }
+    .wrapperFooter{
+        width: 95%;
+    }
+    .footer1{
+        width: 27%;
+    }
+    .footer2{
+        width: 27%;
+    }
+    .socialIcons{
+        width: 90%;
+    }
+    .footer3{
+        width: 27%;
+    }
+    .contactInfo{
+        padding-right:0 !important;
+    }    
+    .socialIcons{
+        width: 70%;
+    }
+}
 @media screen and (max-width:1100px){
     .navlinks{
         display: flex;
@@ -1351,6 +1402,18 @@ p.description{
     .contactInfo{
         padding-right:0 !important;
     }    
+}
+
+@media screen and (max-width:782px){
+    .footer1{
+        height: 23rem !important;
+    }
+    .footer2{
+        height: 23rem !important;
+    }
+    .footer3{
+        height: 23rem !important;
+    }
 }
 
 /*PHONE*/
@@ -1566,12 +1629,14 @@ p.description{
         line-height: 1.5rem;
     }
     .footer1{
+        height: 10rem !important;
         width: 70%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: start;
         margin-left: 0 !important;
+        margin-bottom: 3rem;
     }
     .footer1 a{
         display: none;
@@ -1580,13 +1645,21 @@ p.description{
         width: auto;
         margin-bottom: 1.5rem;
     }
+    .footer1 p{
+        width: auto;
+        padding-bottom: 0 !important;
+    }
     .footer2{
+        height: 20rem !important;
         width: 70%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        padding-bottom: 3rem;
+        margin-bottom: 3rem;
+    }
+    .footer2 p{
+        padding-bottom: 0 !important;
     }
     .TITLE2{
         display: flex;
@@ -1597,21 +1670,21 @@ p.description{
         position: none;
     }
     .socialIcons{
-        justify-content: space-around;
+        justify-content: space-between;
         padding-top: 1rem;
-        width: 60%;
+        width: 50%;
     }
     .socialIcons img{
         height: 2rem;
     }
     .footer3{
-        height: 19rem;
+        height: 17rem !important;
         width: 70%;
         display: flex;
         flex-direction: column;
         justify-content: top;
         align-items: start;
-        padding-top: 3rem;
+        margin-bottom: 5rem;
     }
     .TITLE{
         display: flex;
@@ -1636,22 +1709,35 @@ p.description{
 
     } 
     .Suntem{
-        margin-bottom: 2rem;
+        padding-bottom: 0 !important ;
+        margin-bottom: 0 !important;
     }
+
     .hiddenLink{
+        width: 70%;
         display: contents;
         text-decoration: none;
         font-size: 16pt;
         font-weight: normal;
         color: #259cd4;
-        line-height: 8rem;
-        width: 70%;
+
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: start;
     }  
+}
 
+@media screen and (max-width:510px){
+    .socialIcons{
+        width:60%;
+    }
+    .footer2{
+        height: 23rem;
+    }
+    .footer3{
+        height: 21rem !important;
+    }
 }
 .nav-active{
     transform: translate(0%);

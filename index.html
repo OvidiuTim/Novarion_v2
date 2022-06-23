@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="ro">
 <head>
 	<title> Novarion </title>
 	<link rel="stylesheet" href = "style.css">
+	<meta charset="UTF-8">
 	
 </head>
 
@@ -11,7 +12,7 @@
 	<nav>
 		<div class="navWrapper">
 			<div class="logo">
-				<img src="/media/sigla_negative.svg" >
+				<img src="media/sigla_negative.svg" alt="Novarion logo" >
 			</div>
 			<ul class="navlinks">
 				<li><a href="#projects">PROIECTE</a><div class="barHover"></div></li>
@@ -32,7 +33,7 @@
 		<div class="wrapperHeader">
 			<h3>SUNTEM VIZIUNE. RESPIRĂM INOVAȚIE.</h3>
 			<h1>CONSTRUIM VIITORUL</h1> <h1 class="marg1">ÎMPREUNĂ CU TINE </h1>
-			<a href="#projects"><button class="btnProjects">PROIECTE</button></a>
+			<button class="btnProjects" onclick="scrollToProjects()">PROIECTE</button>
 		</div>
 	</header>
 
@@ -54,9 +55,9 @@
 				În proiectele Novarion sunt implicați profesioniști cu experiență internațională, arhitecți, designeri și firme de instalații specializate. 
 				Inginerii noștri au experiența necesară pentru a livra la cele mai înalte standarde.
 			</p>
-			<a href="#echipa"><button class="goToTeam">ECHIPA</button></a>
+			<button class="goToTeam" onclick = "scrollToEchipa()">ECHIPA</button>
 		</div>
-		<img src="/media/Team-4.jpg"  class="secondImg">
+		<img src="media/Team-4.jpg"  class="secondImg" alt="team building photo">
 	</section>
 
 	
@@ -66,7 +67,7 @@
 		<div class="theServices">
 			<div class="ser">
 				<div class="serImg">
-					<img src="/media/imobiliaria.png" >
+					<img src="media/imobiliaria.png" alt="imobiliaria icon">
 				</div>
 				<h3 class="specialH">DEZVOLTARE IMOBILIARă</h3>
 				<p>Avem o echipă completă: proiectanți, arhitecți, ingineri, specialiști în instalații, consultanți vânzări. Ducem prezentul în viitor.</p>
@@ -74,7 +75,7 @@
 
 			<div class="ser">
 				<div class="serImg">
-					<img src="/media/architecture_icon.png" >
+					<img src="media/architecture_icon.png" alt="architecture icon">
 				</div>
 				<h3>regenerare urbană</h3>
 				<p>Experți în construcții, pasionați de spațiile de locuit. Readucem la viață arhitectura urbană. Suntem un oraș viu.</p>
@@ -82,9 +83,9 @@
 
 			<div class="ser">
 				<div class="serImg">
-					<img src="/media/investitii.png">
+					<img src="media/investitii.png" alt="investitii icon">
 				</div>	
-				<h3>investiții</h>
+				<h3>investiții</h3>
 				<p>Ne place să schimbăm lucrurile în bine. Pentru toată lumea.  Planifică o investiție împreună cu noi. Sigur și eficient.</p>
 			</div>
 		</div>
@@ -105,7 +106,7 @@
 			</div>
 			<div class="projectsBtns1" id="riverHotel" onclick="NewTabHotel()"> 
 				
-				<div class="aGreyBlock1" alt="ImageName"></div>
+				<div class="aGreyBlock1"></div>
 			
 		</div>
 		</div>
@@ -120,206 +121,206 @@
 			<div class="teamTable">
 				<div class="onerow" >
 						<div class="memberBox" id="memberBox" >
-							<img src="/media/Photos/florin m.jpg"  id="showmore" >
+							<img src="media/Photos/florinM.jpg" id="showmore" alt="Portrait of Florin Mătușă">
 							<p  id="showless" class="description"> "Omul potrivit, la locul potrivit" nu este doar un simplu proverb, ci mai degrabă o teoremă a vieții lui Florin, el fiind mereu în contact atât cu domeniul real estate dar și cu managementul operațional. </p>
-							<div  id="showmore" class="nameJob">
+							<div class="nameJob">
 									<h5 class="name">FLORIN MĂTUȘĂ</h5> 
 									<p class="Job">Sales</p>
 							</div>
 						</div>
 
 					<div class="memberBox"  id="memberBoxAlex">
-						<img src="/media/Photos/alex.jpg" id="showmoreAlex" >
-						<p class="description" id="showlessA" name="Alex">Alex este producătorul celor mai frumoase și expresive efecte vizuale, fiind pasionat de fotografie, în esența sa cea mai puternică unealtă estetică. În echipa noastră, are locul său unic, fiind și consultant de imagine.</p>
-						<div class="nameJob" id="showmoreAlex" >
+						<img src="media/Photos/alex.jpg" id="showmoreAlex" alt="Portrait of Alexandru Dumitrescu">
+						<p class="description" id="showlessA">Alex este producătorul celor mai frumoase și expresive efecte vizuale, fiind pasionat de fotografie, în esența sa cea mai puternică unealtă estetică. În echipa noastră, are locul său unic, fiind și consultant de imagine.</p>
+						<div class="nameJob">
 							<h5 class="name">Alexandru dumitrescu</h5>
 							<p class="Job">marketing</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxLiv">
-						<img src="/media/Photos/livia.jpg" id="showmoreLiv">
-						<p class="description" id="showlessLiv">Livia reprezintă un element-cheie în echipa noastră și, în același timp, o prezență plăcută pe care suntem bucuroși să o avem. Aduce în mijlocul nostru energia și dezinvoltura din Brazilia, țara sa natală, și datorită ei, avem o deschidere culturală și mai mare decât înainte.</p>
-						<div class="nameJob" id="showmoreLiv">
+						<img src="media/Photos/livia.jpg" id="showmoreLiv" alt="Portrait of Livia Boer">
+						<p class="description" id="showlessLiv">Livia este un element-cheie în echipa noastră și o prezență plăcută pe care suntem bucuroși să o avem în preajmă. Aduce în mijlocul nostru energia și dezinvoltura din Brazilia, țara sa natală, și datorită ei, avem o deschidere culturală și mai mare decât înainte.</p>
+						<div class="nameJob" >
 							<h5 class="name">LIVIA Boer</h5>
 							<p class="Job">marketing</p>
 						</div>
 					</div>
 
 					<div class="memberBox"  id="memberBoxFlo">
-						<img src="/media/Photos/florin d.jpg" id="showmoreFlo">
+						<img src="media/Photos/florinD.jpg" id="showmoreFlo" alt="Portrait of Florin Dull">
 						<p id="showlessFlo" class="description">Florin are rolul său bine definit în echipa noastră, e un liant între suflete și idei, între concept și profilare. Este mereu în căutare de oameni deosebiți și curios să le afle poveștile de viață.</p>
-						<div id="showmoreFlo" class="nameJob">
+						<div class="nameJob">
 							<h5 class="name">FLORIN dull</h5>
 							<p class="Job">pr & communication</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxOvi">
-						<img src="/media/Photos/ovidiu.jpg" id="showmoreOvi">
+						<img src="media/Photos/ovidiu.jpg" id="showmoreOvi" alt="Portrait of Ovidiu Pîrvu">
 						<p class="description" id="showlessOvi" >Ovidiu este cel care "vorbește" limbajele pe care majoritatea dintre noi nu le cunoaștem. A absolvit Facultatea de Informatică din Pitești și este specializat în dezvoltare de aplicații software cu specific targetat.</p>
-						<div class="nameJob" id="showmoreOvi">
+						<div class="nameJob">
 							<h5 class="name">OVIDIU PÎRVU</h5>
 							<p class="Job">IT</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxDen">
-						<img src="/media/Photos/denisa.jpg" id="showmoreDen" >
+						<img src="media/Photos/denisa.jpg" id="showmoreDen" alt="Portrait of Denisa Mitea" >
 						<p class="description" id="showlessDen">Denisa se potrivește perfect în echipa noastră, și ne dă, zi de zi, un exemplu de atitudine proactivă și abordare complexă, în ceea ce privește activitățile aflate pe agenda de lucru.</p>
-						<div class="nameJob" id="showmoreDen">
+						<div class="nameJob">
 							<h5 class="name">DENISA MITEA</h5>
 							<p class="Job">FINANCE</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxRaz">
-						<img src="/media/Photos/razvan.jpg" id="showmoreRaz">
+						<img src="media/Photos/razvan.jpg" id="showmoreRaz" alt="Portrait of Răzvan Staroste">
 						<p class="description" id="showlessRaz"> Răzvan este omul care trăiește o viață de investiții, la propriu. Investește timp de calitate în mijlocul familiei, își dedică timpul prietenilor și relațiilor interumane, în general. </p>
-						<div class="nameJob" id="showmoreRaz">
+						<div class="nameJob">
 							<h5 class="name">RĂZVAN STAROSTE</h5>
 							<p class="Job">ECONOMIC</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxAnc">
-						<img src="/media/Photos/anca.jpg" id="showmoreAnc">
+						<img src="media/Photos/anca.jpg" id="showmoreAnc" alt="Portrait of Anca Dumitrescu">
 						<p class="description" id="showlessAnc"> Anca este una dintre persoanele care știu, cu adevărat, ce vor de la viață. Are o vastă experiență în domeniul investițiilor internaționale, în ultimii 7 ani făcând parte dintr-o echipă de Investor Services în cadrul unei companii canadiene.</p>
-						<div class="nameJob" id="showlessAnc">
+						<div class="nameJob">
 							<h5 class="name">anca dumitrescu</h5>
 							<p class="Job">investments</p>
 						</div>
 					</div>
 
-					<div class="memberBox"id="memberBoxGab"> 
-						<img src="/media/Photos/gabriela.jpg" id="showmoreGab">
-						<p class="description" id="showlessGab" > Gabriela se transpune într-o multitudine de roluri. Datorită flexibilității și prezenței de spirit, ea contribuie mereu la reușitele noastre, ale tuturor. Este gata să întindă o mână de ajutor, fiind persoana care știe să deslușească totul, mai puțin sensul a două cuvinte: "Nu pot". </p>
-						<div class="nameJob" id="showmoreGab">
+					<div class="memberBox" id="memberBoxGab"> 
+						<img src="media/Photos/gabriela.jpg" id="showmoreGab" alt="Portrait of Gabriela Ihora">
+						<p class="description" id="showlessGab" > Gabriela se transpune într-o multitudine de roluri. Datorită flexibilității și prezenței de spirit, ea contribuie la reușitele noastre și este gata mereu să întindă o mână de ajutor, cu zâmbetul pe buze.</p>
+						<div class="nameJob">
 							<h5 class="name">GABRIELA IHORA</h5>
 							<p class="Job">LEGAL</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxMih">
-						<img src="/media/Photos/mihai c.jpg" id="showmoreMih">
+						<img src="media/Photos/mihaiC.jpg" id="showmoreMih" alt="Portrait of Mihai Coman">
 						<p class="description" id="showlessMih" >Mereu concentrat, dedicat acestui domeniu foarte complex și interesant, Mihai caută să găsească întotdeauna o soluție optimă, etică și eficientă, bazându-se pe prevederile legale ca sursă primară și care, pentru el, reprezintă bornele de orientare.</p>
-						<div class="nameJob" id="showmoreMih">
+						<div class="nameJob" >
 							<h5 class="name">MIHAI COMAN</h5>
 							<p class="Job">LEGAL</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxRal">
-						<img src="/media/Photos/raluca.jpg" id="showmoreRal">
+						<img src="media/Photos/raluca.jpg" id="showmoreRal" alt="Portrait of Raluca Cetean">
 						<p class="description" id="showlessRal">Raluca este mare iubitoare de câini și membru activ la Asociației Chinologice Române. Ne arată mereu că este posibil să gândești liber, să pui în practică orice plan, indiferent cât de greu ar părea, pentru că, la final, experiența contează.</p>
-						<div class="nameJob" id="showmoreRal">
+						<div class="nameJob" >
 							<h5 class="name">RALUCA CETEAN</h5>
 							<p class="Job">LEGAL</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxLuc">
-						<img src="/media/Photos/lucia.jpg" id="showmoreLuc">
-						<p class="description" id="showlessLuc">Lucia este un om de comunicare, mai înainte de toate. Ne completăm prin comunicare, ne susținem și ne bucurăm de momentele petrecute la birou, acest timp prețios pe care îl valorificăm mai ales prin acea implicare creativă, oricare ne-ar fi anii din câmpul muncii.</p>
-						<div class="nameJob" id="showmoreLuc">
+						<img src="media/Photos/lucia.jpg" id="showmoreLuc" alt="Portrait of Lucia Ivan">
+						<p class="description" id="showlessLuc">Lucia este un om de comunicare, înainte de toate. Ne completăm prin comunicare, ne sușținem și ne bucurăm de momentele petrecute la birou, acest timp prețios pe care îl valorificăm și îl petrecem împreună.</p>
+						<div class="nameJob">
 							<h5 class="name">LUCIA IVAN</h5>
 							<p class="Job">HR</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxDel">
-						<img src="/media/Photos/delia.jpg" id="showmoreDel">
+						<img src="media/Photos/delia.jpg" id="showmoreDel" alt="Portrait of Delia Pondiche">
 						<p class="description" id="showlessDel" >Delia are o vastă experiență în domeniul administrativ, precum și o capacitate uimitoare de a organiza și sistematiza. Pentru echipă, contează foarte mult să avem specialiștii potriviți, la locul potrivit, în clipele potrivite.</p>
-						<div class="nameJob" id="showmoreDel">
+						<div class="nameJob">
 							<h5 class="name">DELIA PONDICHE</h5>
 							<p class="Job">ADMINISTRATION</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxMel">
-						<img src="/media/Photos/melania.jpg" id="showmoreMel">
-						<p class="description"  id="showlessMel">Experiența Melaniei ne-a propulsat și motivat mereu. Activitatea notarială, cu care este familiarizată, ne este extrem de utilă în activitatea pe care o desfășurăm și, totodată, ne bazăm pe expertiza ei, în ceea ce privește procesul de dezvoltare imobiliară, per ansamblu.</p>
-						<div class="nameJob" id="showmoreMel">
+						<img src="media/Photos/melania.jpg" id="showmoreMel" alt="Portrait of Melania Luca">
+						<p class="description"  id="showlessMel">Experiența Melaniei ne propulsează și motivează mereu. Activitatea notarială, cu care este familiarizată, ne este extrem de utilă în activitatea pe care o desfășurăm și, totodată, ne bazăm pe expertiza ei, în ceea ce privește procesul de dezvoltare imobiliară.</p>
+						<div class="nameJob">
 							<h5 class="name">MELANIA LUCA</h5>
 							<p class="Job">ADMINISTRATION</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxSte">
-						<img src="/media/Photos/stefan.jpg" id="showmoreSte">
+						<img src="media/Photos/stefan.jpg" id="showmoreSte" alt="Portrait of Ștefan Savu">
 						<p class="description" id="showlessSte" >Ștefan este cel la care ne gândim atunci când trebuie să organizăm diverse activități. Are o experiență solidă în relații publice și comunicare, calitate care acum se dovedește foarte utilă în cadrul echipei Novarion.</p>
-						<div class="nameJob" id="showmoreSte"> 
+						<div class="nameJob"> 
 							<h5 class="name">ȘTEFAN SAVU</h5>
 							<p class="Job">ADMINISTRATION</p>
 						</div>
 					</div>
 					<div class="memberBox" id="memberBoxGeo">
-						<img src="/media/Photos/george.jpg" id="showmoreGeo">
-						<p class="description" id="showmoreGeo" >George este pasionat de tot ce înseamnă hrană și gastronomie. Dorește să facă oamenii fericiți prin intermediul creațiilor sale culinare si a glumelor savuroase. O companie placuta pentru echipa Novarion.</p>
-						<div class="nameJob" id="showmoreGeo"> 
+						<img src="media/Photos/george.jpg" id="showmoreGeo" alt="Portrait of George Laza">
+						<p class="description" id="showlessGeo" >George este pasionat de tot ce înseamnă hrană și gastronomie. Dorește să facă oamenii fericiți prin intermediul creațiilor sale culinare si a glumelor savuroase. O companie placuta pentru echipa Novarion.</p>
+						<div class="nameJob"> 
 							<h5 class="name">GEORGE LAZA</h5>
 							<p class="Job">HORECA</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxCri">
-						<img src="/media/Photos/cristi.jpg" id="showmoreCri">
+						<img src="media/Photos/cristi.jpg" id="showmoreCri" alt="Portrait of Cristian Vesa">
 						<p class="description"  id="showlessCri">Cristian face parte din grupul de specialiști pe care l-am creat cu viziune și pasiune. Aici ne ocupăm timpul cu ceea ce am ales să facem, am adus în companie energia bună, entuziasmul, însuflețirea.</p>
-						<div class="nameJob" id="showmoreCri">
+						<div class="nameJob">
 							<h5 class="name">CRISTIAN VESA</h5>
 							<p class="Job">TOPOGRAPHY</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxCrs">
-						<img src="/media/Photos/Cristian Mitrus.jpg" id="showmoreCrs">
+						<img src="media/Photos/CristianMitrus.jpg" id="showmoreCrs" alt="Portrait of Cristian Mitruș">
 						<p class="description"  id="showlessCrs">Profesionist în acest domeniu, Cristian Mitruș se dedică cu multă ambiție acestei meserii, asimilând în permanență informații de specialitate de la experți în domeniu și remarcându-se prin calitatea proiectelor predate.</p>
-						<div class="nameJob" id="showmoreCrs">
+						<div class="nameJob">
 							<h5 class="name">CRISTIAN MITRUȘ</h5>
 							<p class="Job">STRUCTURAL ENGINEERING</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxAle">
-						<img src="/media/Photos/Alexandra Ion1.jpg" id="showmoreAle">
+						<img src="media/Photos/AlexandraIon1.jpg" id="showmoreAle" alt="Portrait of Alexandra Ion">
 						<p class="description"  id="showlessAle">La capitolul design interior, Novarion are șansa unică de a colabora cu unul dintre cei mai talentați specialiști în domeniu, arhitectul Alexandra Ion.</p>
-						<div class="nameJob" id="showmoreAle">
+						<div class="nameJob" >
 							<h5 class="name">ALEXANDRA ION</h5>
 							<p class="Job">ARCHITECTURE</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxAnd">
-						<img src="/media/Photos/Andrei Mitrus.jpg" id="showmoreAnd">
+						<img src="media/Photos/AndreiMitrus.jpg" id="showmoreAnd" alt="Portrait of Andrei Mitruș">
 						<p class="description"  id="showlessAnd">Andrei Mitruș este cofondatorul AAIM și un vizionar pasionat mereu de ceea ce face, dedicându-se în întregime celor mai interesante selecții de proiecte, cu multă energie și entuziasm.</p>
-						<div class="nameJob" id="showmoreAnd">
+						<div class="nameJob" >
 							<h5 class="name">ANDREI MITRUȘ</h5>
 							<p class="Job">ARCHITECTURE</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxSim">
-						<img src="/media/Photos/Simona Meilescu1.jpg" id="showmoreSim">
+						<img src="media/Photos/SimonaMeilescu1.jpg" id="showmoreSim"  alt="Portrait of Simona Meilescu">
 						<p class="description"  id="showlessSim">Simona Meilescu este un nume cu rezonanță în peisajul românesc al arhitecturii și design-ului de interior, cu care Novarion are acum, iată, onoarea să lucreze.</p>
-						<div class="nameJob" id="showmoreSim">
+						<div class="nameJob" >
 							<h5 class="name">SIMONA MEILESCU</h5>
 							<p class="Job">ARCHITECTURE</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxDan">
-						<img src="/media/Photos/dan.jpg" id="showmoreDan">
+						<img src="media/Photos/dan.jpg" id="showmoreDan"  alt="Portrait of Dan Munteanu">
 						<p class="description"  id="showlessDan">Dan este cel care a contribuit la construcția și consolidarea business-ului, cu pasiune și determinare. Dezvoltarea afacerilor și proiectarea soluțiilor viabile sunt punctele forte ale lui Dan, pe a cărui expertiză ne bazăm.</p>
-						<div class="nameJob" id="showmoreDan">
+						<div class="nameJob">
 							<h5 class="name">DAN MUNTEANU</h5>
 							<p class="Job">MANAGEMENT</p>
 						</div>
 					</div>
 
 					<div class="memberBox" id="memberBoxRau">
-						<img src="/media/Photos/raul.jpg" id="showmoreRau">
+						<img src="media/Photos/raul.jpg" id="showmoreRau"  alt="Portrait of Raul Țărnaru">
 						<p class="description" id="showlessRau">Raul este promotorul și sufletul companiei, pe care a visat-o și a construit-o cu multă pasiune. Îi place să proiecteze idei de business, le dă contur și le conferă un statut aparte, prin faptul că reușește să imprime o amprentă unică, de originalitate și clasă.</p>
-							<div class="nameJob" id="showmoreRau">
+							<div class="nameJob" >
 								<h5 class="name">RAUL ŢĂRNARU</h5>
 								<p class="Job">FOUNDER</p>
 						</div>
@@ -327,8 +328,7 @@
 
 					<div class="memberBox" id="memberBoxInv">
 					</div>
-
-					<div class="memberBox" id="memberBoxInv">
+					<div class="memberBox">
 					</div>
 				</div>
 			</div>
@@ -347,7 +347,7 @@
 
 			<div class="leftBar">
 				<div class="box">
-					<iframe width="475" height="266" src="https://www.youtube.com/embed/EaS7lAThn4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/EaS7lAThn4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 				<div class="box">
 					<h3>24 Mai 2022</h3>
@@ -357,7 +357,7 @@
 						și pentru viitor.</p>
 				</div>
 				<div class="box">
-					<iframe width="475" height="266" src="https://www.youtube.com/embed/zA06uaYQaMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/zA06uaYQaMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 
@@ -377,7 +377,7 @@
 					<p>Am promis că vom construi ceva diferit. Un loc al bunului gust și al bunelor maniere. Un cartier cu totul smart și eco. </p>
 				</div>
 				<div class="box">
-					<iframe width="475" height="266" src="https://www.youtube.com/embed/72oIX5aHKT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/72oIX5aHKT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 				<div class="box">
 					<h3>6 Mai 2022</h3>
@@ -450,7 +450,7 @@
 
 				</div>
 			</div>
-			<a class="hiddenLink" href="www.novarion.ro" target="_blank">www.novarion.ro</a>
+			<a class="hiddenLink" href="http://www.novarion.ro" target="_blank">www.novarion.ro</a>
 		</div>
 	</section>
 

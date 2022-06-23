@@ -25,11 +25,39 @@ const navSlide = () => {
   navSlide();
 
 
-  const memberB = document.querySelectorAll('#memberBox,#memberBoxGeo ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,#memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv ');
+  const memberB = document.querySelectorAll('#memberBox ,#memberBoxAlex, #memberBoxLiv, #memberBoxFlo , #memberBoxOvi , #memberBoxDen , #memberBoxRaz, #memberBoxAnc, #memberBoxGab, #memberBoxMih, #memberBoxRal,#memberBoxLuc,#memberBoxDel,#memberBoxMel,#memberBoxSte,#memberBoxCri,#memberBoxCrs,#memberBoxAle,#memberBoxAnd,#memberBoxSim, #memberBoxDan, #memberBoxRau, #memberBoxInv ');
   for (let i = 0; i < memberB.length; i++) 
+  {
     memberB[i].onclick = function(){
+        if(memberB[i].className=="open"){
+			memberBox.className = "";
+			memberBoxAlex.className = "";
+			memberBoxLiv.className = "";
+			memberBoxFlo.className = "";
+			memberBoxOvi.className = "";
+			memberBoxDen.className = "";
+			memberBoxRaz.className = "";
+			memberBoxAnc.className = "";
+			memberBoxGab.className = "";
+			memberBoxMih.className = "";
+			memberBoxRal.className = "";
+			memberBoxLuc.className = "";
+			memberBoxDel.className = "";
+			memberBoxMel.className = "";
+			memberBoxSte.className = "";
+			memberBoxCri.className = "";
+			memberBoxCrs.className = "";
+			memberBoxAle.className = "";
+			memberBoxAnd.className = "";
+			memberBoxSim.className = "";
+			memberBoxDan.className = "";
+			memberBoxRau.className = "";
+        }
+    
+
+		
+		else{
 		memberBox.className = "opacity";
-		memberBoxGeo.className = "opacity";
 		memberBoxAlex.className = "opacity";
 		memberBoxLiv.className = "opacity";
 		memberBoxFlo.className = "opacity";
@@ -51,15 +79,42 @@ const navSlide = () => {
 		memberBoxSim.className = "opacity";
 		memberBoxDan.className = "opacity";
 		memberBoxRau.className = "opacity";
+        memberB[i].className="open";
+		}
 
-        if(memberB[i].className=="open"){
-            memberB[i].className="";
-        }
-        else{
-            memberB[i].className="open";
-        }
-
-  }
+		}
+	
+	}
+	memberB.forEach(member => {
+		member.addEventListener('click', e => {
+			if(member.className=="opacity"){
+				{
+					memberBox.className = "";
+					memberBoxAlex.className = "";
+					memberBoxLiv.className = "";
+					memberBoxFlo.className = "";
+					memberBoxOvi.className = "";
+					memberBoxDen.className = "";
+					memberBoxRaz.className = "";
+					memberBoxAnc.className = "";
+					memberBoxGab.className = "";
+					memberBoxMih.className = "";
+					memberBoxRal.className = "";
+					memberBoxLuc.className = "";
+					memberBoxDel.className = "";
+					memberBoxMel.className = "";
+					memberBoxSte.className = "";
+					memberBoxCri.className = "";
+					memberBoxCrs.className = "";
+					memberBoxAle.className = "";
+					memberBoxAnd.className = "";
+					memberBoxSim.className = "";
+					memberBoxDan.className = "";
+					memberBoxRau.className = "";	
+				}
+			}
+		  });
+		});
 
 
 
@@ -79,7 +134,7 @@ function NewTabRiver() {
 //download pdf
 function NewTabHotel() {
 	window.open(
-	"", "_blank");
+	"http://novarion.ro/pdfs/The%20River%20Hotel%20by%20NOVARION.pdf", "_blank");
 }
 
 //open divs info new tab
@@ -97,3 +152,11 @@ function NewTabMail() {
 	window.open(
 	"mailto:info@novarion.ro", "_blank");
 }
+
+//buttons
+function scrollToProjects() {
+	document.querySelector('#projects').scrollIntoView({behavior: 'smooth'});
+  }
+  function scrollToEchipa() {
+	document.querySelector('#echipa').scrollIntoView({behavior: 'smooth'});
+  }

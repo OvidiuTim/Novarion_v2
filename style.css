@@ -1107,6 +1107,7 @@ p.description{
     display: flex;
     flex-direction: row;  
     justify-content: left;
+    cursor: pointer;
 }
 .contactInfo img{
     margin-top: 0.2rem;

@@ -82,3 +82,18 @@ function NewTabHotel() {
 	"", "_blank");
 }
 
+//open divs info new tab
+function NewTabMap() {
+	window.open(
+	"https://goo.gl/maps/u8YrSsReceFjCgq37", "_blank");
+}
+
+function NewTabPhone() {
+	window.open(
+	"tel:+40721229999", "_blank");
+}
+
+function NewTabMail() {
+	window.open(
+	"mailto:info@novarion.ro", "_blank");
+}

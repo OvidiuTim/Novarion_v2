@@ -104,8 +104,9 @@ function NewTabRiver() {
 //download pdf
 function NewTabHotel() {
 	window.open(
-	"http://novarion.ro/pdfs/The%20River%20Hotel%20by%20NOVARION.pdf", "_blank");
+	"/pdfs/The%20River%20Hotel%20by%20NOVARION.pdf", "_blank");
 }
+
 
 //open divs info new tab
 function NewTabMap() {

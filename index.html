@@ -4,6 +4,7 @@
 	<title> Novarion </title>
 	<link rel="stylesheet" href = "style.css">
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 </head>
 
@@ -392,17 +393,17 @@
 			</div>
 		</div>
 	</section>
-	<!--<form class="Form" id="Form" onsubmit="sendEmail(); reset();">-->
-	<form class="Form" id="Form" action="connect.php" method="post">
+		
+	<form class="Form" id="form" action="contactform.php" method="post">
 		<h4>SCRIE-NE UN MESAJ</h4>
 		<div class="persInfo">
-			<input type="text" placeholder="Nume" required name="nume">
-			<input type="email" placeholder="Email" required id="email" name="email">
+			<input type="text" name="nume" placeholder="Nume" required>
+			<input type="text" name="mail" placeholder="Email" required>
 		</div>
 		<div class="mesajul">
-		<input type="text" placeholder="Mesajul tău" required name="mesajul">
+		<input type="text" name="mesajul" placeholder="Mesajul tău" required>
 		</div>
-		<button>Trimite</button>
+		<button type="submit" name="submit">Trimite</button>
 			
 	</form>
 	
@@ -455,6 +456,5 @@
 	</section>
 
 	<script src="app.js"></script>
-	<script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>

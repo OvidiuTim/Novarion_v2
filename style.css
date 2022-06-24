@@ -116,13 +116,14 @@ nav img{
 
 
 .header{
-    height: 42.125rem;
+    height:auto;
+    padding: 11rem 0 11rem ;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-position: center ;
+    background-position: left center;
     background-image: url(media/header\ image2.jpg); 
     background-size: cover;
 }
@@ -184,7 +185,8 @@ header .btnProjects:hover{
     flex-direction: column;
     justify-content: center !important;
     align-items: center;
-    height: 24rem;
+    height: auto;
+    padding: 5rem 0 5rem ;
     background-image: url(media/Asset\ 2.png);
     background-position: center right ;
     background-repeat: no-repeat;
@@ -283,12 +285,12 @@ header .btnProjects:hover{
 
 
 .services{
-    margin: 0 !important;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50rem;
+    height:auto;
+    padding: 8rem 0 8rem ;
     background-image: url(media/Asset\ 3.png);
     background-position: bottom 0% left;
     background-repeat: no-repeat;
@@ -370,7 +372,8 @@ header .btnProjects:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    height: 47rem;
+    height:auto;
+    padding: 5rem 0 5rem;
     background:#282560;
 }
 .projects .blueBar{
@@ -528,7 +531,7 @@ header .btnProjects:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 167rem;
+    height: 145rem;
     padding-top: 5rem;
     background-image: url(media/Asset\ 4.png);
     background-position: top 0% right;
@@ -542,7 +545,7 @@ header .btnProjects:hover{
     background-color:#25a8e0;
     height: 6px;
     width: 81px;
-}
+}   
 
 .echipa h4{
     margin-bottom: 0.5rem;
@@ -728,9 +731,10 @@ p.description{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 5.8rem;
+    height:auto;
+    padding: 8rem 0 8rem;
     background-color: #d3eef9;
-    padding-bottom: 5.8rem;
+
 }
 .media .blueBar{
     margin-top:2rem ;
@@ -917,7 +921,8 @@ p.description{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 40rem;
+    height:auto;
+    padding: 8rem 0 8rem;
 }
 
 .Form h4{
@@ -1001,7 +1006,8 @@ p.description{
     background-repeat: no-repeat;
     background-size: 20rem;
     width: 100%;
-    height:30rem;
+    height:auto;
+    padding: 5rem 0 5rem;
 }
 .wrapperFooter{
     width: 70%;
